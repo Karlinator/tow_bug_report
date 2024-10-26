@@ -1,0 +1,1379 @@
+
+creating logfile script_log_261024_2146.txt
+
+[out] <0.0s>     campaign_scripted.lua loaded: a new campaign is being initialised
+[out] <0.0s>     
+*************************************************************************************************************
+*************************************************************************************************************
+[out] <0.9s>     lib_header.lua :: script libraries reloaded in campaign configuration
+[out] <0.9s>     	loading took 0.1099853515625s
+[out] <0.9s>     	Lua version is Lua 5.1
+[out] <0.9s>     
+[help_pages] <0.9s>     
+[help_pages] <0.9s>     
+[help_pages] <0.9s>     
+[help_pages] <0.9s>     *** help page system initialising ***
+[help_pages] <0.9s>     
+[out] <0.9s>     Starting campaign manager, name is not currently set
+[out] <0.9s>     Campaign name has been set to cr_oldworld
+[ui] <0.9s>     *** output_uicomponent_on_click() called ***
+[interventions] <0.9s>     
+[interventions] <0.9s>     
+[interventions] <0.9s>     *********************************
+[interventions] <0.9s>     intervention_manager:new() called
+[interventions] <0.9s>     max session cost: 100
+[interventions] <0.9s>     *********************************
+[interventions] <0.9s>     pre_field_battle_options added trigger condition for event ScriptEventPreBattlePanelOpenedField
+[interventions] <0.9s>     pre_field_battle_options_victory_unsure added trigger condition for event ScriptEventPreBattlePanelOpenedField
+[interventions] <0.9s>     pre_field_battle_options_victory_unlikely added trigger condition for event ScriptEventPreBattlePanelOpenedField
+[interventions] <0.9s>     autoresolving added trigger condition for event ScriptEventTriggerAutoresolvingAdvice
+[interventions] <0.9s>     autoresolving added trigger condition for event ScriptEventPreBattlePanelOpenedField
+[interventions] <0.9s>     pre_minor_settlement_battle_options added trigger condition for event ScriptEventPreBattlePanelOpenedMinorSettlement
+[interventions] <0.9s>     post_normal_battle_victory_options added trigger condition for event PanelOpenedCampaign
+[interventions] <0.9s>     post_battle_defeat_options added trigger condition for event PanelOpenedCampaign
+[interventions] <0.9s>     post_siege_battle_victory_options added trigger condition for event PanelOpenedCampaign
+[interventions] <0.9s>     ambush_defence added trigger condition for event ScriptEventPreBattlePanelOpenedAmbushPlayerDefender
+[interventions] <0.9s>     commandment_warning added trigger condition for event ScriptEventCommandmentWarningIssued
+[interventions] <0.9s>     war_warning added trigger condition for event ScriptEventMoveOptionsPanelOpened
+[interventions] <0.9s>     public_order set turn countdown restart value to 8
+[interventions] <0.9s>     public_order added trigger condition for event ScriptEventFactionTurnStartLowestPublicOrder
+[interventions] <0.9s>     revolt_imminent added trigger condition for event ScriptEventFactionTurnStartLowestPublicOrder
+[interventions] <0.9s>     buildings_damaged set turn countdown restart value to 5
+[interventions] <0.9s>     buildings_damaged added trigger condition for event ScriptEventPlayerBattleSequenceCompleted
+[interventions] <0.9s>     diplomacy_screen added trigger condition for event ScriptEventPlayerOpensDiplomacyPanel
+[interventions] <0.9s>     diplomacy added trigger condition for event ScriptEventDiplomacyPanelOpened
+[interventions] <0.9s>     war added trigger condition for event ScriptEventDiplomacyPanelOpened
+[interventions] <0.9s>     alliances added trigger condition for event ScriptEventDiplomacyPanelOpened
+[interventions] <0.9s>     trade_agreement_sought added trigger condition for event ScriptEventDiplomacyPanelOpened
+[interventions] <0.9s>     non_aggression_pacts added trigger condition for event ScriptEventDiplomacyPanelOpened
+[interventions] <0.9s>     region_rebels added trigger condition for event ScriptEventRegionRebels
+[interventions] <0.9s>     movement_points_exhausted added trigger condition for event ScriptEventPlayerCharacterFinishedMovingEvent
+[interventions] <0.9s>     greenskins added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <0.9s>     empire added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <0.9s>     dwarfs added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <0.9s>     vampire_counts added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <0.9s>     in_vampires_racial_advice added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <0.9s>     in_vampires_raising_dead_advice added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <0.9s>     bloodlines added trigger condition for event PooledResourceChanged
+[interventions] <0.9s>     chaos added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <0.9s>     beastmen added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <0.9s>     money added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <0.9s>     near_bankruptcy added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <0.9s>     bankruptcy added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <0.9s>     hero_action_suffered added trigger condition for event ScriptEventAgentActionSuccessAgainstCharacter
+[interventions] <0.9s>     hero_action_suffered added trigger condition for event ScriptEventAgentActionFailureAgainstCharacter
+[interventions] <0.9s>     hero_action_suffered added trigger condition for event ScriptEventAgentActionSuccessAgainstGarrison
+[interventions] <0.9s>     hero_action_suffered added trigger condition for event ScriptEventAgentActionFailureAgainstGarrison
+[interventions] <0.9s>     unit_recruitment added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <0.9s>     building_construction added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <0.9s>     stances added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <0.9s>     ambush_stance added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     help_pages added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     enemy_reinforcements added trigger condition for event ScriptEventPreBattlePanelOpened
+[interventions] <1.0s>     player_reinforcements added trigger condition for event ScriptEventPreBattlePanelOpened
+[interventions] <1.0s>     enemy_raiding added trigger condition for event ForceRaidingPlayerTerritory
+[interventions] <1.0s>     unit_exchange added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     raiding_stance_possible added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     archaon_encountered added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     archaon_defeated added trigger condition for event ScriptEventHumanWinsBattle
+[interventions] <1.0s>     player_besieged added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     enemy_port added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     player_army_near_coast added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     resources added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     settlement_climate added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     unit_merging added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     winds_of_magic_changed added trigger condition for event ScriptEventPlayerRegionWindsOfMagicChanged
+[interventions] <1.0s>     enemy_province_capital added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     hordes added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     attrition_chaos added trigger condition for event CharacterEntersAttritionalArea
+[interventions] <1.0s>     attrition_vampire added trigger condition for event CharacterEntersAttritionalArea
+[interventions] <1.0s>     attrition_general added trigger condition for event CharacterEntersAttritionalArea
+[interventions] <1.0s>     vmp_attrition_untainted added trigger condition for event CharacterEntersAttritionalArea
+[interventions] <1.0s>     enemy_threaten_settlement added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     foreign_hero added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     global_recruitment added trigger condition for event PanelOpenedCampaign
+[interventions] <1.0s>     horde_growth added trigger condition for event MilitaryForceDevelopmentPointChange
+[interventions] <1.0s>     elven_council added trigger condition for event PanelOpenedCampaign
+[interventions] <1.0s>     elven_halls added trigger condition for event SettlementSelected
+[interventions] <1.0s>     asrai_lookouts added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     worldroots added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     wef_final_battle added trigger condition for event MissionIssued
+[interventions] <1.0s>     wood_elves added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_wood_elves_racial_advice added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_peasant_recruited added trigger condition for event UnitTrained
+[interventions] <1.0s>     in_peasant_negative added trigger condition for event ScriptEventNegativePeasantEconomy
+[interventions] <1.0s>     in_peasant_positive added trigger condition for event ScriptEventPositivePeasantEconomy
+[interventions] <1.0s>     in_add_blessing_lady set turn countdown restart value to 1
+[interventions] <1.0s>     in_add_blessing_lady added trigger condition for event ScriptEventAddBlessing
+[interventions] <1.0s>     in_remove_blessing_lady set turn countdown restart value to 1
+[interventions] <1.0s>     in_remove_blessing_lady added trigger condition for event ScriptEventRemoveBlessing
+[interventions] <1.0s>     in_first_chivalry_gained added trigger condition for event CharacterCompletedBattle
+[interventions] <1.0s>     in_first_chivalry_lost added trigger condition for event ScriptEventFoodValueDown
+[interventions] <1.0s>     in_chivalry_negative added trigger condition for event ScriptEventFoodValueDown
+[interventions] <1.0s>     in_chivalry_level_up set turn countdown restart value to 1
+[interventions] <1.0s>     in_chivalry_level_up added trigger condition for event ScriptEventFoodLevelUp
+[interventions] <1.0s>     in_chivalry_level_up_repanse set turn countdown restart value to 1
+[interventions] <1.0s>     in_chivalry_level_up_repanse added trigger condition for event ScriptEventFoodLevelUp
+[interventions] <1.0s>     in_chivalry_level_down set turn countdown restart value to 1
+[interventions] <1.0s>     in_chivalry_level_down added trigger condition for event ScriptEventFoodLevelDown
+[interventions] <1.0s>     in_green_knight_intro added trigger condition for event ScriptEventFoodValueUp
+[interventions] <1.0s>     in_green_knight_available added trigger condition for event ScriptEventFoodLevelUp
+[interventions] <1.0s>     in_green_knight_summon added trigger condition for event ScriptEventGreenKnightSummoned
+[interventions] <1.0s>     in_green_knight_faded added trigger condition for event ScriptEventGreenKnightFade
+[interventions] <1.0s>     in_errantry_war_dilemma added trigger condition for event ScriptEventFoodLevelUp
+[interventions] <1.0s>     in_errantry_war_dilemma_repanse added trigger condition for event ScriptEventFoodLevelUp
+[interventions] <1.0s>     bretonnia added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_brt_racial_advice added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_hef_racial_advice added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     high_elves added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_def_racial_advice added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     dark_elves added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_lzd_racial_advice added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     lizardmen added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_skv_racial_advice added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     skaven added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_tmb_racial_advice added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     tomb_kings added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_hef_influence_advice added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_hef_intrigue_at_the_court_advice added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_skv_skaven_underworld_advice added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_skv_skaven_food_advice added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_skv_stalking_advice added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_lzd_astromancy_advice added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_lzd_geomantic_web_advice added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_rites added trigger condition for event ScriptEventRiteUnlocked
+[interventions] <1.0s>     in_rite_pestilent_scheme added trigger condition for event ScriptEventRiteUnlocked
+[interventions] <1.0s>     in_rite_doom added trigger condition for event ScriptEventRiteUnlocked
+[interventions] <1.0s>     in_def_black_arks added trigger condition for event ScriptEventRiteUnlocked
+[interventions] <1.0s>     in_def_black_arks added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_loyalty added trigger condition for event ScriptEventRecruitLordPanelOpened
+[interventions] <1.0s>     in_low_loyalty set turn countdown restart value to 8
+[interventions] <1.0s>     in_low_loyalty added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     civil_war added trigger condition for event FactionCivilWarOccured
+[interventions] <1.0s>     corruption_chaos set turn countdown restart value to 10
+[interventions] <1.0s>     corruption_chaos added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     corruption_vampires set turn countdown restart value to 10
+[interventions] <1.0s>     corruption_vampires added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     corruption_untainted set turn countdown restart value to 10
+[interventions] <1.0s>     corruption_untainted added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     corruption_skaven set turn countdown restart value to 10
+[interventions] <1.0s>     corruption_skaven added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     skv_skaven_corruption added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     multi_turn_recruitment added trigger condition for event RecruitmentItemIssuedByPlayer
+[interventions] <1.0s>     black_arks added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     skv_menace_below added trigger condition for event ScriptEventPreBattlePanelOpened
+[interventions] <1.0s>     skaven_underworld added trigger condition for event GarrisonResidenceExposedToFaction
+[interventions] <1.0s>     plague added trigger condition for event MilitaryForceInfectionEvent
+[interventions] <1.0s>     plague added trigger condition for event RegionInfectionEvent
+[interventions] <1.0s>     in_death_night_turn_one added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_death_night_respected added trigger condition for event ScriptEventDeathNightLevel3
+[interventions] <1.0s>     in_death_night_depleted added trigger condition for event ScriptEventDeathNightLevel1
+[interventions] <1.0s>     in_death_night_ready added trigger condition for event ScriptEventRiteUnlocked
+[interventions] <1.0s>     in_death_night_triggered added trigger condition for event ScriptEventDeathNightTriggered
+[interventions] <1.0s>     in_death_night_morathi added trigger condition for event ScriptEventDeathMorathiDefeated
+[interventions] <1.0s>     in_death_night_alarielle added trigger condition for event ScriptEventDeathAlarielleDefeated
+[interventions] <1.0s>     in_blood_voyage_spawned added trigger condition for event ScriptEventDeathBloodVoyage
+[interventions] <1.0s>     in_blood_voyage_destroyed added trigger condition for event ScriptEventDeathBloodVoyageDead
+[interventions] <1.0s>     in_sword_of_khaine_available added trigger condition for event ScriptEventSwordAvailable
+[interventions] <1.0s>     in_sword_of_khaine_player_claimed added trigger condition for event ScriptEventSwordClaimedByPlayer
+[interventions] <1.0s>     in_sword_of_khaine_ai_claimed added trigger condition for event ScriptEventSwordClaimedByAI
+[interventions] <1.0s>     in_sword_of_khaine_stuck added trigger condition for event ScriptEventSwordStuck
+[interventions] <1.0s>     in_sword_of_khaine_returned added trigger condition for event ScriptEventSwordReturned
+[interventions] <1.0s>     in_sword_of_khaine_dilemma added trigger condition for event ScriptEventSwordDilemmaFirst
+[interventions] <1.0s>     assassination_targets_first_targets added trigger condition for event ScriptEventCampaignIntroComplete
+[interventions] <1.0s>     assassination_targets_first_kill added trigger condition for event ScriptEventAssassinationFirstTargetKilled
+[interventions] <1.0s>     assassination_targets_kill_all_targets added trigger condition for event ScriptEventAssassinationAllTargetsKilled
+[interventions] <1.0s>     assassination_targets_new_targets added trigger condition for event ScriptEventAssassinationNewTargets
+[interventions] <1.0s>     in_protector_of_ulthuan_inner_gained added trigger condition for event ScriptEventDefenderOfUlthuanInnerRegained
+[interventions] <1.0s>     in_protector_of_ulthuan_inner_lost added trigger condition for event ScriptEventDefenderOfUlthuanInnerLost
+[interventions] <1.0s>     in_protector_of_ulthuan_unity added trigger condition for event ScriptEventDefenderOfUlthuanUnited
+[interventions] <1.0s>     in_protector_of_ulthuan_outer_lost added trigger condition for event ScriptEventDefenderOfUlthuanOuterLost
+[interventions] <1.0s>     in_power_of_nature added trigger condition for event ScriptEventPowerOfNatureTriggered
+[interventions] <1.0s>     in_mortal_worlds_torment_stage_one added trigger condition for event ScriptEventMortalWorldsTorment1
+[interventions] <1.0s>     in_mortal_worlds_torment_stage_two added trigger condition for event ScriptEventMortalWorldsTorment2
+[interventions] <1.0s>     in_mortal_worlds_torment_stage_three added trigger condition for event ScriptEventMortalWorldsTorment3
+[interventions] <1.0s>     in_treasure_map_mission added trigger condition for event ScriptEventIssueTreasureMapMission
+[interventions] <1.0s>     in_full_treasure_map_log added trigger condition for event ScriptEventIssueTreasureMapMissionFullLog
+[interventions] <1.0s>     in_first_treasure_map_mission_succeeded added trigger condition for event ScriptEventFirstTreasureMapMissionSucceeded
+[interventions] <1.0s>     in_fifth_treasure_map_mission_succeeded added trigger condition for event ScriptEventFifthTreasureMapMissionSucceeded
+[interventions] <1.0s>     in_treasure_not_found added trigger condition for event ScriptEventTreasureSearchFailed
+[interventions] <1.0s>     in_ulthuan_monster_first_attack added trigger condition for event ScriptEventUlthuanMonsterAttacksSea
+[interventions] <1.0s>     in_ulthuan_monster_first_attack added trigger condition for event ScriptEventUlthuanMonsterAttacksSettlement
+[interventions] <1.0s>     in_ulthuan_monster_second_attack added trigger condition for event ScriptEventUlthuanMonsterAttacksSea
+[interventions] <1.0s>     in_ulthuan_monster_second_attack added trigger condition for event ScriptEventUlthuanMonsterAttacksSettlement
+[interventions] <1.0s>     in_ulthuan_monster_attacks_player_settlement added trigger condition for event ScriptEventUlthuanMonsterAttacksSettlement
+[interventions] <1.0s>     in_ulthuan_monster_under_player_control added trigger condition for event ScriptEventUlthuanMonsterUnderPlayerControl
+[interventions] <1.0s>     in_player_infamy_grows added trigger condition for event ScriptEventPlayerInfamyIncreases
+[interventions] <1.0s>     in_player_climbs_infamy_list added trigger condition for event ScriptEventPlayerClimbsInfamyList
+[interventions] <1.0s>     in_player_tops_infamy_list added trigger condition for event ScriptEventPlayerTopsInfamyList
+[interventions] <1.0s>     in_rogue_army_sighted added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_pieces_of_eight_tab_opened added trigger condition for event ComponentLClickUp
+[interventions] <1.0s>     in_first_piece_of_eight_collected added trigger condition for event ScriptEventPieceOfEightCollected
+[interventions] <1.0s>     in_fourth_piece_of_eight_collected added trigger condition for event ScriptEventPieceOfEightCollected
+[interventions] <1.0s>     in_all_pieces_of_eight_collected added trigger condition for event ScriptEventPieceOfEightCollected
+[interventions] <1.0s>     post_normal_battle_pirate_loyalty added trigger condition for event ScriptEventHumanWinsFieldBattle
+[interventions] <1.0s>     in_low_pirate_loyalty set turn countdown restart value to 8
+[interventions] <1.0s>     in_low_pirate_loyalty added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     pirate_civil_war added trigger condition for event FactionCivilWarOccured
+[interventions] <1.0s>     fleet_office added trigger condition for event PanelOpenedCampaign
+[interventions] <1.0s>     post_siege_battle_pirate_cove added trigger condition for event ScriptEventPlayerWinsSettlementBattle
+[interventions] <1.0s>     pre_island_battle_options added trigger condition for event ScriptEventPreBattlePanelOpenedField
+[interventions] <1.0s>     puzzle_dice added trigger condition for event DilemmaIssuedEvent
+[interventions] <1.0s>     puzzle_clock added trigger condition for event DilemmaIssuedEvent
+[interventions] <1.0s>     puzzle_numbers added trigger condition for event DilemmaIssuedEvent
+[interventions] <1.0s>     puzzle_odd_one_out added trigger condition for event DilemmaIssuedEvent
+[interventions] <1.0s>     in_sacrifices_to_sotek_post_battle_option added trigger condition for event ScriptEventHumanWinsFieldBattle
+[interventions] <1.0s>     in_sacrifices_to_sotek_pooled_increase added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_sacrifices_to_sotek_sacrifice_ready added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_sacrifices_to_sotek_sotek_available added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_sacrifices_to_sotek_unlocked_tier_2 added trigger condition for event ScriptEventSacrificeTier2Unlocked
+[interventions] <1.0s>     in_sacrifices_to_sotek_unlocked_tier_3 added trigger condition for event ScriptEventSacrificeTier3Unlocked
+[interventions] <1.0s>     in_prophecy_turn_one added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_prophecy_stage_1_completed added trigger condition for event ScriptEventPoSStage1Completed
+[interventions] <1.0s>     in_prophecy_stage_2_completed added trigger condition for event ScriptEventPoSStage2Completed
+[interventions] <1.0s>     in_prophecy_stage_3_completed added trigger condition for event ScriptEventSacrificeTier5Unlocked
+[interventions] <1.0s>     in_bretonnian_vows_button_clicked added trigger condition for event ScriptEventBretonnianVowsButtonClicked
+[interventions] <1.0s>     in_bretonnian_vows_knights_vow_completed added trigger condition for event ScriptEventBretonniaKnightsVowCompleted
+[interventions] <1.0s>     in_bretonnian_vows_questing_vow_completed added trigger condition for event ScriptEventBretonniaQuestingVowCompleted
+[interventions] <1.0s>     in_bretonnian_vows_grail_vow_completed added trigger condition for event ScriptEventBretonniaGrailVowCompleted
+[interventions] <1.0s>     in_ikit_workshop_turn_one added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_ikit_workshop_button_clicked added trigger condition for event ScriptEventForbiddenWorkshopButtonClicked
+[interventions] <1.0s>     in_ikit_workshop_panel_opened added trigger condition for event ScriptEventIkitWorkshopPanelOpened
+[interventions] <1.0s>     in_ikit_workshop_upgrade_ready added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_ikit_workshop_completed_2_upgrades added trigger condition for event ScriptEventPlayer2WorkshopUpgrades
+[interventions] <1.0s>     in_ikit_workshop_first_victory added trigger condition for event ScriptEventHumanWinsBattle
+[interventions] <1.0s>     in_ikit_workshop_nuke_purchase_available added trigger condition for event ScriptEventPlayerNukeReadyToBuy
+[interventions] <1.0s>     in_ikit_workshop_completed_5_upgrades added trigger condition for event ScriptEventPlayer5WorkshopUpgrades
+[interventions] <1.0s>     in_ikit_workshop_upgraded_workshop added trigger condition for event ScriptEventPlayerWorkshopUpgraded
+[interventions] <1.0s>     in_ikit_workshop_prebattle_with_nuke added trigger condition for event ScriptEventPreBattlePanelOpened
+[interventions] <1.0s>     in_ikit_workshop_10_warp_fuel added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_under_empire_post_settlement_battle added trigger condition for event ScriptEventPlayerWinsSettlementBattle
+[interventions] <1.0s>     in_under_empire_player_establishes added trigger condition for event ScriptEventPlayerUnderEmpireEstablished
+[interventions] <1.0s>     in_under_empire_building_completed added trigger condition for event ScriptEventUnderEmpireDoomsphereStarted
+[interventions] <1.0s>     in_under_empire_player_discovered added trigger condition for event ScriptEventUnderEmpirePlayerDiscovered
+[interventions] <1.0s>     in_under_empire_ai_discovered added trigger condition for event ScriptEventUnderEmpireAIDiscovered
+[interventions] <1.0s>     in_under_empire_player_removes added trigger condition for event ScriptEventUnderEmpireRemovedByPlayer
+[interventions] <1.0s>     in_under_empire_doomsphere_started added trigger condition for event ScriptEventUnderEmpireDoomsphereStarted
+[interventions] <1.0s>     in_under_empire_doomsphere_completed added trigger condition for event ScriptEventUnderEmpireDoomsphereCompleted
+[interventions] <1.0s>     in_under_empire_player_war_camp_completed added trigger condition for event ScriptEventUnderEmpirePlayerWarCamp
+[interventions] <1.0s>     in_under_empire_ai_war_camp_completed added trigger condition for event ScriptEventUnderEmpireAIWarCamp
+[interventions] <1.0s>     in_under_empire_agent_in_region added trigger condition for event ScriptEventUnderEmpireAgentInRegion
+[interventions] <1.0s>     in_under_empire_ai_doomsphere_completed added trigger condition for event ScriptEventUnderEmpireAIDoomsphereCompleted
+[interventions] <1.0s>     in_under_empire_ai_doomsphere_completed_followup added trigger condition for event ScriptEventUnderEmpireAIDoomsphereCompletedFollowUp
+[interventions] <1.0s>     in_empire_racial_advice added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_elector_counts_open_panel added trigger condition for event ScriptEventElectorCountButtonClicked
+[interventions] <1.0s>     in_elector_counts_occupy_capital added trigger condition for event ScriptEventElectorCapitalTaken
+[interventions] <1.0s>     in_elector_counts_appoint_elector added trigger condition for event ScriptEventElectorAppointed
+[interventions] <1.0s>     in_imperial_authority_low_negative_authority added trigger condition for event PooledResourceEffectChangedEvent
+[interventions] <1.0s>     in_imperial_authority_high_negative_authority added trigger condition for event PooledResourceEffectChangedEvent
+[interventions] <1.0s>     in_imperial_authority_civil_war added trigger condition for event DilemmaIssuedEvent
+[interventions] <1.0s>     in_imperial_authority_political_event added trigger condition for event DilemmaIssuedEvent
+[interventions] <1.0s>     in_imperial_authority_invasion_event added trigger condition for event DilemmaIssuedEvent
+[interventions] <1.0s>     in_imperial_authority_confederation_event added trigger condition for event DilemmaIssuedEvent
+[interventions] <1.0s>     in_imperial_authority_declare_war_on_elector added trigger condition for event ScriptEventImperialAuthorityWarDeclaredOnElector
+[interventions] <1.0s>     in_imperial_authority_elector_killed added trigger condition for event ScriptEventImperialAuthorityElectorKilled
+[interventions] <1.0s>     in_prestige_gained added trigger condition for event ScriptEventPrestigeGained
+[interventions] <1.0s>     in_gotrek_and_felix_pub_built added trigger condition for event ScriptEventGotrekAndFelixPubBuilt
+[interventions] <1.0s>     in_gotrek_and_felix_dilemma_event added trigger condition for event DilemmaIssuedEvent
+[interventions] <1.0s>     in_gotrek_and_felix_departed added trigger condition for event ScriptEventGotrekAndFelixDepart
+[interventions] <1.0s>     in_mandate_gained added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_mandate_level_2 added trigger condition for event PooledResourceEffectChangedEvent
+[interventions] <1.0s>     in_mandate_level_3 added trigger condition for event PooledResourceEffectChangedEvent
+[interventions] <1.0s>     in_mandate_losing_settlement added trigger condition for event ScriptEventMandateLostSettlement
+[interventions] <1.0s>     in_mandate_supplies_dilemma added trigger condition for event DilemmaIssuedEvent
+[interventions] <1.0s>     in_hostility_gained added trigger condition for event PooledResourceEffectChangedEvent
+[interventions] <1.0s>     in_hostility_level_1 added trigger condition for event PooledResourceEffectChangedEvent
+[interventions] <1.0s>     in_hostility_level_3 added trigger condition for event PooledResourceEffectChangedEvent
+[interventions] <1.0s>     in_hostility_level_5 added trigger condition for event PooledResourceEffectChangedEvent
+[interventions] <1.0s>     in_hostility_defeat_spawned_army added trigger condition for event CharacterConvalescedOrKilled
+[interventions] <1.0s>     in_hostility_resource_degrades added trigger condition for event ScriptEventHostilityDecreased
+[interventions] <1.0s>     in_hostility_level_degrades added trigger condition for event PooledResourceEffectChangedEvent
+[interventions] <1.0s>     in_hunters_open_panel added trigger condition for event ScriptEventWulfhartsHuntersButtonClicked
+[interventions] <1.0s>     in_hunters_first_hunter_unlocked added trigger condition for event HunterUnlocked
+[interventions] <1.0s>     in_hunters_first_hunter_story_complete added trigger condition for event ScriptEventHunterStoryCompleted
+[interventions] <1.0s>     in_hunters_all_hunters_unlocked added trigger condition for event HunterUnlocked
+[interventions] <1.0s>     in_hunters_all_hunters_stories_completed added trigger condition for event ScriptEventHunterStoryCompleted
+[interventions] <1.0s>     in_wulfhart_campaign_gorrok_defeated added trigger condition for event GorRokDefeated
+[interventions] <1.0s>     in_wulfhart_campaign_final_battle added trigger condition for event MissionIssued
+[interventions] <1.0s>     in_chaos_racial_advice added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_defence_of_the_great_plan_first_settlement_victory added trigger condition for event ScriptEventPlayerWinsSettlementBattle
+[interventions] <1.0s>     in_defence_of_the_great_plan_first_time_gifting added trigger condition for event CharacterPerformsSettlementOccupationDecision
+[interventions] <1.0s>     in_defence_of_the_great_plan_open_panel added trigger condition for event ScriptEventDotGPButtonClicked
+[interventions] <1.0s>     in_defence_of_the_great_plan_5_temples added trigger condition for event ScriptEventDotGP5Temples
+[interventions] <1.0s>     in_defence_of_the_great_plan_temple_unit_available added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_defence_of_the_great_plan_1_god_complete added trigger condition for event ScriptEventDotGPGodCompleted
+[interventions] <1.0s>     in_defence_of_the_great_plan_2_gods_complete added trigger condition for event ScriptEventDotGPGodCompleted
+[interventions] <1.0s>     in_defence_of_the_great_plan_3_gods_complete added trigger condition for event ScriptEventDotGPGodCompleted
+[interventions] <1.0s>     in_jungle_nexus added trigger condition for event CharacterCreated
+[interventions] <1.0s>     in_warm_blood_invaders_turn_2 added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_warm_blood_invaders_hunter_killed added trigger condition for event ScriptEventWarmbloodInvadersHunterKilled
+[interventions] <1.0s>     in_warm_blood_invaders_all_hunters_killed added trigger condition for event ScriptEventWarmbloodInvadersHunterKilled
+[interventions] <1.0s>     in_nakai_campaign_final_battle added trigger condition for event MissionIssued
+[interventions] <1.0s>     in_desert_thirst added trigger condition for event CharacterEntersGarrison
+[interventions] <1.0s>     in_shadowy_dealings_open_panel added trigger condition for event ScriptEventShadowyDealingsPanelOpened
+[interventions] <1.0s>     in_shadowy_dealings_clan_contracts added trigger condition for event ScriptEventClanButtonClicked
+[interventions] <1.0s>     in_shadowy_dealings_action_completed added trigger condition for event RitualCompletedEvent
+[interventions] <1.0s>     in_possession_start added trigger condition for event ScriptEventPlayerStartsOpenCampaignFromNormal
+[interventions] <1.0s>     in_possession_elixir added trigger condition for event ScriptEventElixirButtonClicked
+[interventions] <1.0s>     in_possession_full_control added trigger condition for event PooledResourceEffectChangedEvent
+[interventions] <1.0s>     in_possession_full_possession added trigger condition for event ScriptEventMalusPossessedPostBattle
+[interventions] <1.0s>     in_possession_5 added trigger condition for event PooledResourceEffectChangedEvent
+[interventions] <1.0s>     in_whispers_issued added trigger condition for event MissionIssued
+[interventions] <1.0s>     in_whispers_succeeded added trigger condition for event MissionSucceeded
+[interventions] <1.0s>     in_malekith_favour added trigger condition for event ScriptEventWitchKingRiteUnlocked
+[interventions] <1.0s>     in_malus_scrolls_early added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_malus_scrolls_mid added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_imrik_dragon_spawn added trigger condition for event ScriptEventImrikDragonMarkerSpawn
+[interventions] <1.0s>     in_imrik_dragon_enter added trigger condition for event ScriptEventImrikDragonMarkerEnter
+[interventions] <1.0s>     in_imrik_dragon_quest_trigger added trigger condition for event ScriptEventImrikDragonBattleSpawn
+[interventions] <1.0s>     in_imrik_dragon_quest_success_one added trigger condition for event ScriptEventImrikDragonBattleWinOne
+[interventions] <1.0s>     in_imrik_dragon_quest_success_two added trigger condition for event ScriptEventImrikDragonBattleWinTwo
+[interventions] <1.0s>     in_imrik_dragon_quest_success_five added trigger condition for event ScriptEventImrikDragonBattleWinFive
+[interventions] <1.0s>     in_imrik_dragon_dilemma_non_quest added trigger condition for event ScriptEventImrikDragonDilemmaNonBattle
+[interventions] <1.0s>     in_imrik_dragon_encounter_generic added trigger condition for event ScriptEventImrikDragonEncounterGeneric
+[interventions] <1.0s>     in_greenskins_underway_advice added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     raiding_camp_stance_possible added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     wagh_resource_gained added trigger condition for event ScriptEventWaghBattle
+[interventions] <1.0s>     wagh_trigger added trigger condition for event ScriptEventWaghResourceMax
+[interventions] <1.0s>     wagh_trigger_reminder added trigger condition for event ScriptEventWaghReminder
+[interventions] <1.0s>     wagh_select added trigger condition for event ScriptEventWaghSelect
+[interventions] <1.0s>     wagh_god_select added trigger condition for event ScriptEventWaghSelect
+[interventions] <1.0s>     wagh_success added trigger condition for event PlayerWaghEndedSuccessful
+[interventions] <1.0s>     wagh_failure added trigger condition for event PlayerWaghEndedUnsuccessful
+[interventions] <1.0s>     wagh_transported_army added trigger condition for event ScriptEventWaghTransportedArmies
+[interventions] <1.0s>     yvresse_warning added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_mists_of_yvresse_unlocked added trigger condition for event ScriptEventMistsOfYvresseUnlocked
+[interventions] <1.0s>     in_mists_of_yvresse_activated added trigger condition for event RitualCompletedEvent
+[interventions] <1.0s>     in_yvresse_defence_introduction added trigger condition for event ScriptEventPlayerStartsOpenCampaignFromNormal
+[interventions] <1.0s>     in_yvresse_defence_reminder added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_yvresse_defence_increased_1 added trigger condition for event ScriptEventYvresseDefenceOne
+[interventions] <1.0s>     in_yvresse_defence_increased_2 added trigger condition for event ScriptEventYvresseDefenceTwo
+[interventions] <1.0s>     in_yvresse_defence_increased_3 added trigger condition for event ScriptEventYvresseDefenceThree
+[interventions] <1.0s>     in_athel_tamarha_panel_open added trigger condition for event ScriptEventAthelTamarhaPanelOpened
+[interventions] <1.0s>     in_athel_tamarha_mistwalker added trigger condition for event UnitTrained
+[interventions] <1.0s>     in_athel_tamarha_prisoner added trigger condition for event IncidentOccuredEvent
+[interventions] <1.0s>     in_athel_tamarha_prison_action added trigger condition for event PrisonActionTakenEvent
+[interventions] <1.0s>     in_athel_tamarha_upgrade added trigger condition for event RitualCompletedEvent
+[interventions] <1.0s>     in_groms_waaagh added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_food_merchant_first_appears added trigger condition for event ScriptEventFoodMerchantSpawned
+[interventions] <1.0s>     in_food_merchant_dilemma added trigger condition for event DilemmaIssuedEvent
+[interventions] <1.0s>     in_groms_cauldron_panel_open added trigger condition for event ScriptEventGromsCauldronPanelOpened
+[interventions] <1.0s>     in_groms_cauldron_ingredient added trigger condition for event IngredientUnlocked
+[interventions] <1.0s>     in_groms_cauldron_recipe added trigger condition for event FactionCookedDish
+[interventions] <1.0s>     in_salvage_post_battle added trigger condition for event ScriptEventPlayerWinsBattle
+[interventions] <1.0s>     in_salvage_acquired added trigger condition for event CharacterSelectedWithUnitUpgradeUnlockedAndAffordable
+[interventions] <1.0s>     in_salvage_upgraded added trigger condition for event UnitEffectPurchased
+[interventions] <1.0s>     in_forge_of_daith added trigger condition for event ScriptEventForgeOfDaithFirstIncident
+[interventions] <1.0s>     in_worldroots_pacification added trigger condition for event ScriptEventPlayerWinsFieldBattle
+[interventions] <1.0s>     in_worldroots_oak_of_ages added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_worldroots_markers added trigger condition for event ScriptEventMarkerSpawned
+[interventions] <1.0s>     in_worldroots_button added trigger condition for event ScriptEventWorldrootsButtonClicked
+[interventions] <1.0s>     in_worldroots_button added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_worldroots_teleport added trigger condition for event ScriptEventDeeprootsUnlocked
+[interventions] <1.0s>     in_worldroots_amber added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_worldroots_rebirth added trigger condition for event ScriptEventForestRitualAvailable
+[interventions] <1.0s>     in_worldroots_invasions added trigger condition for event ScriptEventMarkerSpawned
+[interventions] <1.0s>     in_aspects added trigger condition for event CharacterSelected
+[interventions] <1.0s>     in_wild_spirits added trigger condition for event CharacterSelected
+[interventions] <1.0s>     in_spites added trigger condition for event ScriptEventRaiseForceButtonClicked
+[interventions] <1.0s>     in_flesh_lab_growth_juice added trigger condition for event ScriptEventPlayerWinsBattle
+[interventions] <1.0s>     in_flesh_lab_monster_pack added trigger condition for event IncidentOccuredEvent
+[interventions] <1.0s>     in_flesh_lab_augment_unlocked added trigger condition for event UnitEffectPurchased
+[interventions] <1.0s>     in_flesh_lab_upgrades added trigger condition for event RitualCompletedEvent
+[interventions] <1.0s>     in_rakarth_monster_pens added trigger condition for event ScriptEventRakarthBeastIncidentGenerated
+[interventions] <1.0s>     in_rakarth_raiding added trigger condition for event ScriptEventRakarthBeastIncidentGenerated
+[interventions] <1.0s>     in_rakarth_settlements added trigger condition for event CharacterPerformsSettlementOccupationDecision
+[interventions] <1.0s>     in_rakarth_rite added trigger condition for event ScriptEventRakarthRiteUnlocked
+[interventions] <1.0s>     in_silent_sanctums_point_gained added trigger condition for event ScriptEventOxyFirstStoneGained
+[interventions] <1.0s>     in_silent_sanctums_constructed added trigger condition for event ScriptEventOxyFirstSanctumConstructed
+[interventions] <1.0s>     in_threat_map_first_mission_issued added trigger condition for event ScriptEventOxyThreatMapCreated
+[interventions] <1.0s>     in_threat_map_panel_open_1 added trigger condition for event PanelOpenedCampaign
+[interventions] <1.0s>     in_threat_map_in_threat_map_panel_open_2 added trigger condition for event PanelOpenedCampaign
+[interventions] <1.0s>     in_threat_map_in_threat_map_panel_open_3 added trigger condition for event PanelOpenedCampaign
+[interventions] <1.0s>     in_threat_map_first_mission_complete added trigger condition for event ScriptEventOxyThreatMapSuccess
+[interventions] <1.0s>     in_taurox_rampage_first_battle added trigger condition for event ScriptEventPlayerWinsBattle
+[interventions] <1.0s>     in_taurox_rampage_first_threshold added trigger condition for event ScriptEventTauroxRampageThresholdReached
+[interventions] <1.0s>     in_taurox_rampage_momentum_lost added trigger condition for event ScriptEventTauroxRampageMomentumLost
+[interventions] <1.0s>     in_taurox_rampage_over added trigger condition for event ScriptEventTauroxRampageOver
+[interventions] <1.0s>     in_taurox_rampage_success added trigger condition for event ScriptEventTauroxRampageSuccess
+[interventions] <1.0s>     in_beastmen_racial_advice added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_beastmen_horde_advice added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_beastmen_bestial_rage_advice added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     low_bestial_rage added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_beastmen_beast_paths_advice added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_beastmen_hidden_encampment_stance_advice added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_beastmen_hidden_encampment_stance_advice added trigger condition for event ScriptEventPlayerBattleSequenceCompleted
+[interventions] <1.0s>     in_bloodgrounds_herdstone added trigger condition for event ScriptEventPlayerWinsSettlementAttackBattle
+[interventions] <1.0s>     in_bloodgrounds_regions added trigger condition for event ScriptEventBloodgroundsHerdstoneCreated
+[interventions] <1.0s>     in_bloodgrounds_settlements added trigger condition for event ScriptEventPlayerWinsSettlementAttackBattle
+[interventions] <1.0s>     in_bloodgrounds_first_raze added trigger condition for event CharacterPerformsSettlementOccupationDecision
+[interventions] <1.0s>     in_bloodgrounds_all_razed added trigger condition for event ScriptEventRitualofRuinUnlocked
+[interventions] <1.0s>     in_bloodgrounds_ritual_complete added trigger condition for event ScriptEventRitualofRuinPerformed
+[interventions] <1.0s>     in_beastmen_technology_panel_opened added trigger condition for event ScriptEventTechnologyPanelOpened
+[interventions] <1.0s>     in_marks_of_ruination_turn_two added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_marks_of_ruination_first_threshold added trigger condition for event ScriptEventMarksofRuinationThreshold
+[interventions] <1.0s>     in_marks_of_ruination_completed added trigger condition for event ScriptEventMarksofRuinationCompleted
+[interventions] <1.0s>     in_forge_opened added trigger condition for event ScriptEventDwarfForgePanelOpened
+[interventions] <1.0s>     in_forge_first_part_recovered added trigger condition for event ScriptEventForgeArtefactPartReceived
+[interventions] <1.0s>     in_artefacts_first_pair_recovered added trigger condition for event ScriptEventForgeArtefactPair
+[interventions] <1.0s>     in_artefacts_first_artefact_forged added trigger condition for event ScriptEventArtefactsForgedOne
+[interventions] <1.0s>     in_artefacts_third_artefact_forged added trigger condition for event ScriptEventArtefactsForgedThree
+[interventions] <1.0s>     in_artefacts_all_artefact_forged added trigger condition for event ScriptEventArtefactsForgedAll
+[interventions] <1.0s>     grudges_advice added trigger condition for event ScriptEventPlayerAcceptsMission
+[interventions] <1.0s>     in_dwarfs_racial_advice added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_dwarfs_underway_advice added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_oathgold added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     in_dwarf_runes added trigger condition for event RitualCompletedEvent
+[interventions] <1.0s>     in_grudges_low_severity added trigger condition for event CampaignEffectsBundleAwarded
+[interventions] <1.0s>     in_grudges_high_severity added trigger condition for event CampaignEffectsBundleAwarded
+[interventions] <1.0s>     storm_of_magic_pre_battle added trigger condition for event PanelOpenedCampaign
+[interventions] <1.0s>     daemon_prince_post_battle added trigger condition for event PanelOpenedCampaign
+[interventions] <1.0s>     khorne_ascendancy added trigger condition for event ScriptEventNewGodAscendant
+[interventions] <1.0s>     nurgle_ascendancy added trigger condition for event ScriptEventNewGodAscendant
+[interventions] <1.0s>     tzeentch_ascendancy added trigger condition for event ScriptEventNewGodAscendant
+[interventions] <1.0s>     slaanesh_ascendancy added trigger condition for event ScriptEventNewGodAscendant
+[interventions] <1.0s>     ogre_meat_pre_battle added trigger condition for event PanelOpenedCampaign
+[interventions] <1.0s>     ogre_contracts added trigger condition for event ScriptEventOgreContractsIssued
+[interventions] <1.0s>     low_devotion added trigger condition for event ScriptEventChaosIncursionAgainstFaction
+[interventions] <1.0s>     motherland_ritual_player added trigger condition for event ScriptEventFactionPerformsMotherlandRitual
+[interventions] <1.0s>     motherland_ritual_other_player added trigger condition for event ScriptEventFactionPerformsMotherlandRitual
+[interventions] <1.0s>     motherland_ritual_other_player_followers added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     slaanesh_resurrect_faction added trigger condition for event PanelOpenedCampaign
+[interventions] <1.0s>     winds_of_magic_weak added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     winds_of_magic_low_reserve added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     winds_of_magic_high_reserve added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     exalted_greater_daemon added trigger condition for event ScriptEventHeraldUpgradeChance
+[interventions] <1.0s>     item_fusing added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     ogre_merc_recruitment added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     daemonic_progression_item added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     request_foreign_army added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     khorne added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     nurgle added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     slaanesh added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     tzeentch added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     kislev added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     cathay added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     ogres added trigger condition for event ScriptEventPlayerFactionTurnStart
+[interventions] <1.0s>     ataman_dilemma added trigger condition for event ProvinceGovernorshipNewDecisionAvailable
+[interventions] <1.0s>     item_sets added trigger condition for event FactionGainedAncillary
+[interventions] <1.0s>     in_daemon_prince_customisation added trigger condition for event PanelClosedCampaign
+[interventions] <1.0s>     in_daemon_prince_customisation added trigger condition for event NavigableToursStarted
+[interventions] <1.0s>     in_changing_of_the_ways added trigger condition for event PanelClosedCampaign
+[interventions] <1.0s>     in_changing_of_the_ways added trigger condition for event NavigableToursStarted
+[interventions] <1.0s>     in_changing_of_the_ways added trigger condition for event MissionIssued
+[interventions] <1.0s>     in_caravans added trigger condition for event PanelOpenedCampaign
+[interventions] <1.0s>     in_end_turn_camera added trigger condition for event FactionTurnStart
+[interventions] <1.0s>     in_witchs_hut added trigger condition for event PanelClosedCampaign
+[interventions] <1.0s>     in_hexes added trigger condition for event PanelClosedCampaign
+[interventions] <1.0s>     in_blessings added trigger condition for event ScriptEventPreBattlePanelOpened
+[interventions] <1.0s>     in_curses added trigger condition for event ScriptEventPreBattlePanelOpened
+[interventions] <1.0s>     in_schemes added trigger condition for event PanelClosedCampaign
+[interventions] <1.0s>     in_formless_horror added trigger condition for event ScriptEventChangelingGainsForm
+[interventions] <1.0s>     in_matters_of_state added trigger condition for event PanelOpenedCampaign
+[interventions] <1.0s>     in_empowering_the_compass added trigger condition for event FactionTurnStart
+[narrative] <1.1s>     * oldworld_narrative_events.lua loaded
+[narrative] <1.1s>     * wh3_narrative_loader.lua loaded
+[narrative] <1.1s>     * wh3_narrative_event_templates.lua loaded
+[narrative] <1.1s>     * wh3_narrative_shared_faction_data.lua loaded
+[narrative] <1.1s>     * wh3_narrative_shared_chains.lua loaded
+[design] <1.1s>     Random Army Manager: Creating New Force with key [wh_main_sc_grn_savage_orcs_horde]
+[design] <1.1s>     	Force with key [wh_main_sc_grn_savage_orcs_horde] created!
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh_main_grn_inf_savage_orcs] with weight: [3] to force: [wh_main_sc_grn_savage_orcs_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh_main_grn_inf_savage_orcs] with weight: [3] to force: [wh_main_sc_grn_savage_orcs_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh_main_grn_inf_savage_orcs] with weight: [3] to force: [wh_main_sc_grn_savage_orcs_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh_main_grn_inf_savage_orc_arrer_boyz] with weight: [3] to force: [wh_main_sc_grn_savage_orcs_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh_main_grn_inf_savage_orc_arrer_boyz] with weight: [3] to force: [wh_main_sc_grn_savage_orcs_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh_main_grn_inf_savage_orc_arrer_boyz] with weight: [3] to force: [wh_main_sc_grn_savage_orcs_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh_main_grn_cav_savage_orc_boar_boyz] with weight: [2] to force: [wh_main_sc_grn_savage_orcs_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh_main_grn_cav_savage_orc_boar_boyz] with weight: [2] to force: [wh_main_sc_grn_savage_orcs_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh_main_grn_inf_savage_orc_big_uns] with weight: [1] to force: [wh_main_sc_grn_savage_orcs_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh_main_grn_cav_savage_orc_boar_boy_big_uns] with weight: [1] to force: [wh_main_sc_grn_savage_orcs_horde]
+[design] <1.1s>     Random Army Manager: Creating New Force with key [wh_dlc03_sc_bst_beastmen_horde]
+[design] <1.1s>     	Force with key [wh_dlc03_sc_bst_beastmen_horde] created!
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh_dlc03_bst_inf_ungor_spearmen_0] with weight: [3] to force: [wh_dlc03_sc_bst_beastmen_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh_dlc03_bst_inf_ungor_spearmen_0] with weight: [3] to force: [wh_dlc03_sc_bst_beastmen_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh_dlc03_bst_inf_ungor_spearmen_0] with weight: [3] to force: [wh_dlc03_sc_bst_beastmen_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh_dlc03_bst_inf_ungor_raiders_0] with weight: [3] to force: [wh_dlc03_sc_bst_beastmen_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh_dlc03_bst_inf_ungor_raiders_0] with weight: [3] to force: [wh_dlc03_sc_bst_beastmen_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh_dlc03_bst_inf_ungor_raiders_0] with weight: [3] to force: [wh_dlc03_sc_bst_beastmen_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh_dlc03_bst_inf_minotaurs_0] with weight: [2] to force: [wh_dlc03_sc_bst_beastmen_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh_dlc03_bst_inf_minotaurs_0] with weight: [2] to force: [wh_dlc03_sc_bst_beastmen_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh_dlc03_bst_inf_chaos_warhounds_0] with weight: [1] to force: [wh_dlc03_sc_bst_beastmen_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh_dlc03_bst_inf_cygor_0] with weight: [1] to force: [wh_dlc03_sc_bst_beastmen_horde]
+[design] <1.1s>     Random Army Manager: Creating New Force with key [wh2_main_sc_lzd_lizardmen_horde]
+[design] <1.1s>     	Force with key [wh2_main_sc_lzd_lizardmen_horde] created!
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh2_main_lzd_inf_skink_cohort_1] with weight: [3] to force: [wh2_main_sc_lzd_lizardmen_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh2_main_lzd_inf_skink_cohort_1] with weight: [3] to force: [wh2_main_sc_lzd_lizardmen_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh2_main_lzd_inf_skink_cohort_1] with weight: [3] to force: [wh2_main_sc_lzd_lizardmen_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh2_main_lzd_inf_saurus_warriors_0] with weight: [3] to force: [wh2_main_sc_lzd_lizardmen_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh2_main_lzd_inf_saurus_warriors_0] with weight: [3] to force: [wh2_main_sc_lzd_lizardmen_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh2_main_lzd_inf_saurus_warriors_0] with weight: [3] to force: [wh2_main_sc_lzd_lizardmen_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh2_dlc13_lzd_mon_sacred_kroxigors_0] with weight: [2] to force: [wh2_main_sc_lzd_lizardmen_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh2_dlc13_lzd_mon_sacred_kroxigors_0] with weight: [2] to force: [wh2_main_sc_lzd_lizardmen_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh2_main_lzd_cav_cold_ones_1] with weight: [1] to force: [wh2_main_sc_lzd_lizardmen_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh2_main_lzd_mon_carnosaur_0] with weight: [1] to force: [wh2_main_sc_lzd_lizardmen_horde]
+[design] <1.1s>     Random Army Manager: Creating New Force with key [wh3_main_sc_tze_tzeentch_horde]
+[design] <1.1s>     	Force with key [wh3_main_sc_tze_tzeentch_horde] created!
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh3_main_tze_inf_blue_horrors_0] with weight: [3] to force: [wh3_main_sc_tze_tzeentch_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh3_main_tze_inf_blue_horrors_0] with weight: [3] to force: [wh3_main_sc_tze_tzeentch_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh3_main_tze_inf_blue_horrors_0] with weight: [3] to force: [wh3_main_sc_tze_tzeentch_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh3_main_tze_inf_pink_horrors_0] with weight: [3] to force: [wh3_main_sc_tze_tzeentch_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh3_main_tze_inf_pink_horrors_0] with weight: [3] to force: [wh3_main_sc_tze_tzeentch_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh3_main_tze_inf_pink_horrors_0] with weight: [3] to force: [wh3_main_sc_tze_tzeentch_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh3_main_tze_inf_forsaken_0] with weight: [2] to force: [wh3_main_sc_tze_tzeentch_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh3_main_tze_inf_forsaken_0] with weight: [2] to force: [wh3_main_sc_tze_tzeentch_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh3_main_tze_mon_screamers_0] with weight: [1] to force: [wh3_main_sc_tze_tzeentch_horde]
+[design] <1.1s>     Random Army Manager: Adding Unit- [wh3_main_tze_cav_chaos_knights_0] with weight: [1] to force: [wh3_main_sc_tze_tzeentch_horde]
+[design] <1.2s>     *** Caravans script loaded ***
+[design] <1.2s>     Random Army Manager: Creating New Force with key [ogre_bandit_low_a]
+[design] <1.2s>     	Force with key [ogre_bandit_low_a] created!
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_ogres_0] with amount: [1] to force: [ogre_bandit_low_a]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_gnoblars_0] with amount: [2] to force: [ogre_bandit_low_a]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_gnoblars_0] with amount: [2] to force: [ogre_bandit_low_a]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_mon_sabretusk_pack_0] with amount: [1] to force: [ogre_bandit_low_a]
+[design] <1.2s>     Random Army Manager: Adding Unit- [wh3_main_ogr_inf_gnoblars_0] with weight: [1] to force: [ogre_bandit_low_a]
+[design] <1.2s>     Random Army Manager: Adding Unit- [wh3_main_ogr_mon_sabretusk_pack_0] with weight: [1] to force: [ogre_bandit_low_a]
+[design] <1.2s>     Random Army Manager: Creating New Force with key [ogre_bandit_low_b]
+[design] <1.2s>     	Force with key [ogre_bandit_low_b] created!
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_maneaters_0] with amount: [1] to force: [ogre_bandit_low_b]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_gnoblars_0] with amount: [2] to force: [ogre_bandit_low_b]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_gnoblars_0] with amount: [2] to force: [ogre_bandit_low_b]
+[design] <1.2s>     Random Army Manager: Adding Unit- [wh3_main_ogr_inf_gnoblars_0] with weight: [1] to force: [ogre_bandit_low_b]
+[design] <1.2s>     Random Army Manager: Adding Unit- [wh3_main_ogr_mon_sabretusk_pack_0] with weight: [1] to force: [ogre_bandit_low_b]
+[design] <1.2s>     Random Army Manager: Creating New Force with key [ogre_bandit_med_a]
+[design] <1.2s>     	Force with key [ogre_bandit_med_a] created!
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_ogres_0] with amount: [2] to force: [ogre_bandit_med_a]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_ogres_0] with amount: [2] to force: [ogre_bandit_med_a]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_gnoblars_0] with amount: [3] to force: [ogre_bandit_med_a]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_gnoblars_0] with amount: [3] to force: [ogre_bandit_med_a]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_gnoblars_0] with amount: [3] to force: [ogre_bandit_med_a]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_mon_sabretusk_pack_0] with amount: [1] to force: [ogre_bandit_med_a]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_cav_mournfang_cavalry_0] with amount: [1] to force: [ogre_bandit_med_a]
+[design] <1.2s>     Random Army Manager: Adding Unit- [wh3_main_ogr_inf_gnoblars_0] with weight: [1] to force: [ogre_bandit_med_a]
+[design] <1.2s>     Random Army Manager: Adding Unit- [wh3_main_ogr_mon_sabretusk_pack_0] with weight: [1] to force: [ogre_bandit_med_a]
+[design] <1.2s>     Random Army Manager: Creating New Force with key [ogre_bandit_med_b]
+[design] <1.2s>     	Force with key [ogre_bandit_med_b] created!
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_ogres_0] with amount: [2] to force: [ogre_bandit_med_b]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_ogres_0] with amount: [2] to force: [ogre_bandit_med_b]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_gnoblars_0] with amount: [2] to force: [ogre_bandit_med_b]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_gnoblars_0] with amount: [2] to force: [ogre_bandit_med_b]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_gnoblars_1] with amount: [2] to force: [ogre_bandit_med_b]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_gnoblars_1] with amount: [2] to force: [ogre_bandit_med_b]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_leadbelchers_0] with amount: [1] to force: [ogre_bandit_med_b]
+[design] <1.2s>     Random Army Manager: Adding Unit- [wh3_main_ogr_inf_gnoblars_0] with weight: [1] to force: [ogre_bandit_med_b]
+[design] <1.2s>     Random Army Manager: Adding Unit- [wh3_main_ogr_mon_sabretusk_pack_0] with weight: [1] to force: [ogre_bandit_med_b]
+[design] <1.2s>     Random Army Manager: Creating New Force with key [ogre_bandit_high_a]
+[design] <1.2s>     	Force with key [ogre_bandit_high_a] created!
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_cha_hunter_0] with amount: [1] to force: [ogre_bandit_high_a]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_ogres_0] with amount: [2] to force: [ogre_bandit_high_a]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_ogres_0] with amount: [2] to force: [ogre_bandit_high_a]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_gnoblars_1] with amount: [3] to force: [ogre_bandit_high_a]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_gnoblars_1] with amount: [3] to force: [ogre_bandit_high_a]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_gnoblars_1] with amount: [3] to force: [ogre_bandit_high_a]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_cav_mournfang_cavalry_0] with amount: [2] to force: [ogre_bandit_high_a]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_cav_mournfang_cavalry_0] with amount: [2] to force: [ogre_bandit_high_a]
+[design] <1.2s>     Random Army Manager: Adding Unit- [wh3_main_ogr_inf_gnoblars_0] with weight: [1] to force: [ogre_bandit_high_a]
+[design] <1.2s>     Random Army Manager: Adding Unit- [wh3_main_ogr_mon_sabretusk_pack_0] with weight: [1] to force: [ogre_bandit_high_a]
+[design] <1.2s>     Random Army Manager: Creating New Force with key [ogre_bandit_high_b]
+[design] <1.2s>     	Force with key [ogre_bandit_high_b] created!
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_maneaters_0] with amount: [1] to force: [ogre_bandit_high_b]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_ogres_0] with amount: [1] to force: [ogre_bandit_high_b]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_gnoblars_0] with amount: [2] to force: [ogre_bandit_high_b]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_gnoblars_0] with amount: [2] to force: [ogre_bandit_high_b]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_gnoblars_1] with amount: [3] to force: [ogre_bandit_high_b]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_gnoblars_1] with amount: [3] to force: [ogre_bandit_high_b]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_gnoblars_1] with amount: [3] to force: [ogre_bandit_high_b]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_veh_gnoblar_scraplauncher_0] with amount: [1] to force: [ogre_bandit_high_b]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_leadbelchers_0] with amount: [1] to force: [ogre_bandit_high_b]
+[design] <1.2s>     Random Army Manager: Adding Unit- [wh3_main_ogr_inf_gnoblars_0] with weight: [1] to force: [ogre_bandit_high_b]
+[design] <1.2s>     Random Army Manager: Adding Unit- [wh3_main_ogr_mon_sabretusk_pack_0] with weight: [1] to force: [ogre_bandit_high_b]
+[design] <1.2s>     Random Army Manager: Creating New Force with key [daemon_incursion]
+[design] <1.2s>     	Force with key [daemon_incursion] created!
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_inf_bloodletters_0] with amount: [3] to force: [daemon_incursion]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_inf_bloodletters_0] with amount: [3] to force: [daemon_incursion]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_inf_bloodletters_0] with amount: [3] to force: [daemon_incursion]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_inf_chaos_warhounds_0] with amount: [4] to force: [daemon_incursion]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_inf_chaos_warhounds_0] with amount: [4] to force: [daemon_incursion]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_inf_chaos_warhounds_0] with amount: [4] to force: [daemon_incursion]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_inf_chaos_warhounds_0] with amount: [4] to force: [daemon_incursion]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_cav_gorebeast_chariot] with amount: [1] to force: [daemon_incursion]
+[design] <1.2s>     Random Army Manager: Creating New Force with key [daemon_incursion_late]
+[design] <1.2s>     	Force with key [daemon_incursion_late] created!
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_inf_bloodletters_0] with amount: [4] to force: [daemon_incursion_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_inf_bloodletters_0] with amount: [4] to force: [daemon_incursion_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_inf_bloodletters_0] with amount: [4] to force: [daemon_incursion_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_inf_bloodletters_0] with amount: [4] to force: [daemon_incursion_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_inf_chaos_warhounds_0] with amount: [4] to force: [daemon_incursion_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_inf_chaos_warhounds_0] with amount: [4] to force: [daemon_incursion_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_inf_chaos_warhounds_0] with amount: [4] to force: [daemon_incursion_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_inf_chaos_warhounds_0] with amount: [4] to force: [daemon_incursion_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_cav_gorebeast_chariot] with amount: [2] to force: [daemon_incursion_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_cav_gorebeast_chariot] with amount: [2] to force: [daemon_incursion_late]
+[design] <1.2s>     Random Army Manager: Creating New Force with key [ogre_bandit_high_b]
+[design] <1.2s>     	Force with key [ogre_bandit_high_b] already exists!
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_maneaters_0] with amount: [2] to force: [ogre_bandit_high_b]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_maneaters_0] with amount: [2] to force: [ogre_bandit_high_b]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_ogres_0] with amount: [2] to force: [ogre_bandit_high_b]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_ogres_0] with amount: [2] to force: [ogre_bandit_high_b]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_gnoblars_0] with amount: [2] to force: [ogre_bandit_high_b]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_gnoblars_0] with amount: [2] to force: [ogre_bandit_high_b]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_gnoblars_1] with amount: [1] to force: [ogre_bandit_high_b]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_veh_gnoblar_scraplauncher_0] with amount: [2] to force: [ogre_bandit_high_b]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_veh_gnoblar_scraplauncher_0] with amount: [2] to force: [ogre_bandit_high_b]
+[design] <1.2s>     Random Army Manager: Creating New Force with key [daemon_incursion_convoy]
+[design] <1.2s>     	Force with key [daemon_incursion_convoy] created!
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_inf_chaos_warriors_0] with amount: [2] to force: [daemon_incursion_convoy]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_inf_chaos_warriors_0] with amount: [2] to force: [daemon_incursion_convoy]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_inf_chaos_warriors_2] with amount: [2] to force: [daemon_incursion_convoy]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_inf_chaos_warriors_2] with amount: [2] to force: [daemon_incursion_convoy]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_cav_gorebeast_chariot] with amount: [2] to force: [daemon_incursion_convoy]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_cav_gorebeast_chariot] with amount: [2] to force: [daemon_incursion_convoy]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_inf_bloodletters_1] with amount: [2] to force: [daemon_incursion_convoy]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_inf_bloodletters_1] with amount: [2] to force: [daemon_incursion_convoy]
+[design] <1.2s>     Random Army Manager: Creating New Force with key [cathay_caravan_army]
+[design] <1.2s>     	Force with key [cathay_caravan_army] created!
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_cth_inf_jade_warriors_0] with amount: [4] to force: [cathay_caravan_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_cth_inf_jade_warriors_0] with amount: [4] to force: [cathay_caravan_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_cth_inf_jade_warriors_0] with amount: [4] to force: [cathay_caravan_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_cth_inf_jade_warriors_0] with amount: [4] to force: [cathay_caravan_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_cth_inf_jade_warriors_1] with amount: [3] to force: [cathay_caravan_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_cth_inf_jade_warriors_1] with amount: [3] to force: [cathay_caravan_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_cth_inf_jade_warriors_1] with amount: [3] to force: [cathay_caravan_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_cth_inf_peasant_archers_0] with amount: [3] to force: [cathay_caravan_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_cth_inf_peasant_archers_0] with amount: [3] to force: [cathay_caravan_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_cth_inf_peasant_archers_0] with amount: [3] to force: [cathay_caravan_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_cth_art_grand_cannon_0] with amount: [1] to force: [cathay_caravan_army]
+[design] <1.2s>     Random Army Manager: Creating New Force with key [skaven_shortcut_army]
+[design] <1.2s>     	Force with key [skaven_shortcut_army] created!
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_skv_inf_clanrats_1] with amount: [3] to force: [skaven_shortcut_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_skv_inf_clanrats_1] with amount: [3] to force: [skaven_shortcut_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_skv_inf_clanrats_1] with amount: [3] to force: [skaven_shortcut_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_skv_inf_skavenslaves_0] with amount: [3] to force: [skaven_shortcut_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_skv_inf_skavenslaves_0] with amount: [3] to force: [skaven_shortcut_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_skv_inf_skavenslaves_0] with amount: [3] to force: [skaven_shortcut_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_skv_inf_night_runners_0] with amount: [2] to force: [skaven_shortcut_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_skv_inf_night_runners_0] with amount: [2] to force: [skaven_shortcut_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_skv_inf_clanrats_0] with amount: [3] to force: [skaven_shortcut_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_skv_inf_clanrats_0] with amount: [3] to force: [skaven_shortcut_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_skv_inf_clanrats_0] with amount: [3] to force: [skaven_shortcut_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc12_skv_inf_ratling_gun_0] with amount: [1] to force: [skaven_shortcut_army]
+[design] <1.2s>     Random Army Manager: Creating New Force with key [dwarf_convoy_army]
+[design] <1.2s>     	Force with key [dwarf_convoy_army] created!
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_dwf_inf_dwarf_warrior_0] with amount: [3] to force: [dwarf_convoy_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_dwf_inf_dwarf_warrior_0] with amount: [3] to force: [dwarf_convoy_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_dwf_inf_dwarf_warrior_0] with amount: [3] to force: [dwarf_convoy_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_dwf_inf_miners_1] with amount: [3] to force: [dwarf_convoy_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_dwf_inf_miners_1] with amount: [3] to force: [dwarf_convoy_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_dwf_inf_miners_1] with amount: [3] to force: [dwarf_convoy_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_dwf_inf_quarrellers_0] with amount: [3] to force: [dwarf_convoy_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_dwf_inf_quarrellers_0] with amount: [3] to force: [dwarf_convoy_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_dwf_inf_quarrellers_0] with amount: [3] to force: [dwarf_convoy_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_dwf_art_grudge_thrower] with amount: [2] to force: [dwarf_convoy_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_dwf_art_grudge_thrower] with amount: [2] to force: [dwarf_convoy_army]
+[design] <1.2s>     Random Army Manager: Creating New Force with key [hungry_chaos_army]
+[design] <1.2s>     	Force with key [hungry_chaos_army] created!
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_chs_inf_chaos_warriors_0] with amount: [2] to force: [hungry_chaos_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_chs_inf_chaos_warriors_0] with amount: [2] to force: [hungry_chaos_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_chs_inf_chaos_warriors_1] with amount: [2] to force: [hungry_chaos_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_chs_inf_chaos_warriors_1] with amount: [2] to force: [hungry_chaos_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_chs_mon_giant] with amount: [1] to force: [hungry_chaos_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_chs_mon_trolls] with amount: [1] to force: [hungry_chaos_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_chs_mon_chaos_spawn] with amount: [1] to force: [hungry_chaos_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_chs_mon_chaos_warhounds_0] with amount: [2] to force: [hungry_chaos_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_chs_mon_chaos_warhounds_0] with amount: [2] to force: [hungry_chaos_army]
+[design] <1.2s>     Random Army Manager: Creating New Force with key [high_elf_army]
+[design] <1.2s>     	Force with key [high_elf_army] created!
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_hef_inf_spearmen_0] with amount: [3] to force: [high_elf_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_hef_inf_spearmen_0] with amount: [3] to force: [high_elf_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_hef_inf_spearmen_0] with amount: [3] to force: [high_elf_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_hef_inf_lothern_sea_guard_0] with amount: [3] to force: [high_elf_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_hef_inf_lothern_sea_guard_0] with amount: [3] to force: [high_elf_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_hef_inf_lothern_sea_guard_0] with amount: [3] to force: [high_elf_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_hef_inf_archers_1] with amount: [2] to force: [high_elf_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_hef_inf_archers_1] with amount: [2] to force: [high_elf_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc15_hef_mon_war_lions_of_chrace_0] with amount: [2] to force: [high_elf_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc15_hef_mon_war_lions_of_chrace_0] with amount: [2] to force: [high_elf_army]
+[design] <1.2s>     Random Army Manager: Creating New Force with key [vampire_count_army]
+[design] <1.2s>     	Force with key [vampire_count_army] created!
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_vmp_inf_zombie] with amount: [6] to force: [vampire_count_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_vmp_inf_zombie] with amount: [6] to force: [vampire_count_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_vmp_inf_zombie] with amount: [6] to force: [vampire_count_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_vmp_inf_zombie] with amount: [6] to force: [vampire_count_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_vmp_inf_zombie] with amount: [6] to force: [vampire_count_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_vmp_inf_zombie] with amount: [6] to force: [vampire_count_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc09_tmb_mon_dire_wolves] with amount: [2] to force: [vampire_count_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc09_tmb_mon_dire_wolves] with amount: [2] to force: [vampire_count_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc09_tmb_mon_fell_bats] with amount: [2] to force: [vampire_count_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc09_tmb_mon_fell_bats] with amount: [2] to force: [vampire_count_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_vmp_mon_crypt_horrors] with amount: [2] to force: [vampire_count_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_vmp_mon_crypt_horrors] with amount: [2] to force: [vampire_count_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_vmp_inf_skeleton_warriors_0] with amount: [4] to force: [vampire_count_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_vmp_inf_skeleton_warriors_0] with amount: [4] to force: [vampire_count_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_vmp_inf_skeleton_warriors_0] with amount: [4] to force: [vampire_count_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_vmp_inf_skeleton_warriors_0] with amount: [4] to force: [vampire_count_army]
+[design] <1.2s>     Random Army Manager: Creating New Force with key [tomb_kings_army]
+[design] <1.2s>     	Force with key [tomb_kings_army] created!
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc09_tmb_inf_skeleton_spearmen_0] with amount: [4] to force: [tomb_kings_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc09_tmb_inf_skeleton_spearmen_0] with amount: [4] to force: [tomb_kings_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc09_tmb_inf_skeleton_spearmen_0] with amount: [4] to force: [tomb_kings_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc09_tmb_inf_skeleton_spearmen_0] with amount: [4] to force: [tomb_kings_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc09_tmb_inf_skeleton_archers_0] with amount: [4] to force: [tomb_kings_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc09_tmb_inf_skeleton_archers_0] with amount: [4] to force: [tomb_kings_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc09_tmb_inf_skeleton_archers_0] with amount: [4] to force: [tomb_kings_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc09_tmb_inf_skeleton_archers_0] with amount: [4] to force: [tomb_kings_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc09_tmb_inf_nehekhara_warriors_0] with amount: [2] to force: [tomb_kings_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc09_tmb_inf_nehekhara_warriors_0] with amount: [2] to force: [tomb_kings_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc09_tmb_art_screaming_skull_catapult_0] with amount: [1] to force: [tomb_kings_army]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc09_tmb_mon_ushabti_0] with amount: [1] to force: [tomb_kings_army]
+[design] <1.2s>     Random Army Manager: Creating New Force with key [ogre_bandit_high_b_late]
+[design] <1.2s>     	Force with key [ogre_bandit_high_b_late] created!
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_maneaters_0] with amount: [3] to force: [ogre_bandit_high_b_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_maneaters_0] with amount: [3] to force: [ogre_bandit_high_b_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_maneaters_0] with amount: [3] to force: [ogre_bandit_high_b_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_ogres_0] with amount: [3] to force: [ogre_bandit_high_b_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_ogres_0] with amount: [3] to force: [ogre_bandit_high_b_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_inf_ogres_0] with amount: [3] to force: [ogre_bandit_high_b_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_mon_stonehorn_0] with amount: [1] to force: [ogre_bandit_high_b_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_mon_gorgers_0] with amount: [1] to force: [ogre_bandit_high_b_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_veh_ironblaster_0] with amount: [2] to force: [ogre_bandit_high_b_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_ogr_veh_ironblaster_0] with amount: [2] to force: [ogre_bandit_high_b_late]
+[design] <1.2s>     Random Army Manager: Creating New Force with key [daemon_incursion_convoy_late]
+[design] <1.2s>     	Force with key [daemon_incursion_convoy_late] created!
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_dlc20_chs_inf_chosen_mkho] with amount: [3] to force: [daemon_incursion_convoy_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_dlc20_chs_inf_chosen_mkho] with amount: [3] to force: [daemon_incursion_convoy_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_dlc20_chs_inf_chosen_mkho] with amount: [3] to force: [daemon_incursion_convoy_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_dlc20_chs_inf_chosen_mkho_dualweapons] with amount: [2] to force: [daemon_incursion_convoy_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_dlc20_chs_inf_chosen_mkho_dualweapons] with amount: [2] to force: [daemon_incursion_convoy_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_cav_skullcrushers_0] with amount: [2] to force: [daemon_incursion_convoy_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_cav_skullcrushers_0] with amount: [2] to force: [daemon_incursion_convoy_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_mon_bloodthirster_0] with amount: [1] to force: [daemon_incursion_convoy_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_kho_mon_soul_grinder_0] with amount: [1] to force: [daemon_incursion_convoy_late]
+[design] <1.2s>     Random Army Manager: Creating New Force with key [cathay_caravan_army_late]
+[design] <1.2s>     	Force with key [cathay_caravan_army_late] created!
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_cth_inf_dragon_guard_0] with amount: [4] to force: [cathay_caravan_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_cth_inf_dragon_guard_0] with amount: [4] to force: [cathay_caravan_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_cth_inf_dragon_guard_0] with amount: [4] to force: [cathay_caravan_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_cth_inf_dragon_guard_0] with amount: [4] to force: [cathay_caravan_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_cth_inf_dragon_guard_crossbowmen_0] with amount: [3] to force: [cathay_caravan_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_cth_inf_dragon_guard_crossbowmen_0] with amount: [3] to force: [cathay_caravan_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_cth_inf_dragon_guard_crossbowmen_0] with amount: [3] to force: [cathay_caravan_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_cth_mon_terracotta_sentinel_0] with amount: [1] to force: [cathay_caravan_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh3_main_cth_art_fire_rain_rocket_battery_0] with amount: [1] to force: [cathay_caravan_army_late]
+[design] <1.2s>     Random Army Manager: Creating New Force with key [skaven_shortcut_army_late]
+[design] <1.2s>     	Force with key [skaven_shortcut_army_late] created!
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_skv_inf_stormvermin_1] with amount: [3] to force: [skaven_shortcut_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_skv_inf_stormvermin_1] with amount: [3] to force: [skaven_shortcut_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_skv_inf_stormvermin_1] with amount: [3] to force: [skaven_shortcut_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_skv_inf_death_runners_0] with amount: [3] to force: [skaven_shortcut_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_skv_inf_death_runners_0] with amount: [3] to force: [skaven_shortcut_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_skv_inf_death_runners_0] with amount: [3] to force: [skaven_shortcut_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_skv_inf_death_globe_bombardiers] with amount: [3] to force: [skaven_shortcut_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_skv_inf_death_globe_bombardiers] with amount: [3] to force: [skaven_shortcut_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_skv_inf_death_globe_bombardiers] with amount: [3] to force: [skaven_shortcut_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_skv_mon_rat_ogres] with amount: [1] to force: [skaven_shortcut_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_skv_mon_hell_pit_abomination] with amount: [1] to force: [skaven_shortcut_army_late]
+[design] <1.2s>     Random Army Manager: Creating New Force with key [dwarf_convoy_army_late]
+[design] <1.2s>     	Force with key [dwarf_convoy_army_late] created!
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_dwf_inf_longbeards] with amount: [3] to force: [dwarf_convoy_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_dwf_inf_longbeards] with amount: [3] to force: [dwarf_convoy_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_dwf_inf_longbeards] with amount: [3] to force: [dwarf_convoy_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_dwf_inf_ironbreakers] with amount: [3] to force: [dwarf_convoy_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_dwf_inf_ironbreakers] with amount: [3] to force: [dwarf_convoy_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_dwf_inf_ironbreakers] with amount: [3] to force: [dwarf_convoy_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_dwf_inf_irondrakes_0] with amount: [2] to force: [dwarf_convoy_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_dwf_inf_irondrakes_0] with amount: [2] to force: [dwarf_convoy_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_dwf_art_organ_gun] with amount: [1] to force: [dwarf_convoy_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_dwf_veh_gyrocopter_1] with amount: [1] to force: [dwarf_convoy_army_late]
+[design] <1.2s>     Random Army Manager: Creating New Force with key [hungry_chaos_army_late]
+[design] <1.2s>     	Force with key [hungry_chaos_army_late] created!
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_dlc01_chs_inf_chosen_2] with amount: [2] to force: [hungry_chaos_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_dlc01_chs_inf_chosen_2] with amount: [2] to force: [hungry_chaos_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_chs_inf_chosen_1] with amount: [2] to force: [hungry_chaos_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_chs_inf_chosen_1] with amount: [2] to force: [hungry_chaos_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_dlc01_chs_mon_dragon_ogre] with amount: [2] to force: [hungry_chaos_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_dlc01_chs_mon_dragon_ogre] with amount: [2] to force: [hungry_chaos_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_chs_cav_chaos_knights_1] with amount: [2] to force: [hungry_chaos_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_chs_cav_chaos_knights_1] with amount: [2] to force: [hungry_chaos_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_chs_art_hellcannon] with amount: [2] to force: [hungry_chaos_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_chs_art_hellcannon] with amount: [2] to force: [hungry_chaos_army_late]
+[design] <1.2s>     Random Army Manager: Creating New Force with key [high_elf_army_late]
+[design] <1.2s>     	Force with key [high_elf_army_late] created!
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_hef_inf_phoenix_guard] with amount: [3] to force: [high_elf_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_hef_inf_phoenix_guard] with amount: [3] to force: [high_elf_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_hef_inf_phoenix_guard] with amount: [3] to force: [high_elf_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_hef_inf_swordmasters_of_hoeth_0] with amount: [3] to force: [high_elf_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_hef_inf_swordmasters_of_hoeth_0] with amount: [3] to force: [high_elf_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_hef_inf_swordmasters_of_hoeth_0] with amount: [3] to force: [high_elf_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc10_hef_inf_sisters_of_avelorn_0] with amount: [2] to force: [high_elf_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc10_hef_inf_sisters_of_avelorn_0] with amount: [2] to force: [high_elf_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_hef_mon_sun_dragon] with amount: [1] to force: [high_elf_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_main_hef_mon_phoenix_frostheart] with amount: [1] to force: [high_elf_army_late]
+[design] <1.2s>     Random Army Manager: Creating New Force with key [vampire_count_army_late]
+[design] <1.2s>     	Force with key [vampire_count_army_late] created!
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_vmp_inf_crypt_ghouls] with amount: [4] to force: [vampire_count_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_vmp_inf_crypt_ghouls] with amount: [4] to force: [vampire_count_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_vmp_inf_crypt_ghouls] with amount: [4] to force: [vampire_count_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_vmp_inf_crypt_ghouls] with amount: [4] to force: [vampire_count_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_vmp_inf_grave_guard_0] with amount: [2] to force: [vampire_count_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_vmp_inf_grave_guard_0] with amount: [2] to force: [vampire_count_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_vmp_cav_black_knights_0] with amount: [2] to force: [vampire_count_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_vmp_cav_black_knights_0] with amount: [2] to force: [vampire_count_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_vmp_mon_vargheists] with amount: [2] to force: [vampire_count_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_vmp_mon_vargheists] with amount: [2] to force: [vampire_count_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh_main_vmp_mon_terrorgheist] with amount: [1] to force: [vampire_count_army_late]
+[design] <1.2s>     Random Army Manager: Creating New Force with key [tomb_kings_army_late]
+[design] <1.2s>     	Force with key [tomb_kings_army_late] created!
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc09_tmb_inf_tomb_guard_0] with amount: [4] to force: [tomb_kings_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc09_tmb_inf_tomb_guard_0] with amount: [4] to force: [tomb_kings_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc09_tmb_inf_tomb_guard_0] with amount: [4] to force: [tomb_kings_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc09_tmb_inf_tomb_guard_0] with amount: [4] to force: [tomb_kings_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc09_tmb_mon_ushabti_1] with amount: [2] to force: [tomb_kings_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc09_tmb_mon_ushabti_1] with amount: [2] to force: [tomb_kings_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc09_tmb_veh_skeleton_chariot_0] with amount: [2] to force: [tomb_kings_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc09_tmb_veh_skeleton_chariot_0] with amount: [2] to force: [tomb_kings_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc09_tmb_mon_tomb_scorpion_0] with amount: [1] to force: [tomb_kings_army_late]
+[design] <1.2s>     Random Army Manager: Adding Mandatory Unit- [wh2_dlc09_tmb_mon_khemrian_warsphinx_0] with amount: [1] to force: [tomb_kings_army_late]
+[interventions] <1.3s>     NorscaChallengersSpawned added trigger condition for event ScriptEventNorscaChallengersSpawned
+[out] <2.0s>     
+[out] <2.0s>     ****************************
+[out] <2.0s>     Loading Mods
+[out] <2.0s>     	Loading mod file [script\_lib\mod\mixer_lib.lua]
+[out] <2.0s>     	Mod [script\_lib\mod\mixer_lib.lua] loaded successfully
+[out] <2.0s>     	Loading mod file [script\_lib\mod\mixer_lib_campaign.lua]
+[out] <2.0s>     	Mod [script\_lib\mod\mixer_lib_campaign.lua] loaded successfully
+[out] <2.0s>     	Loading mod file [script\_lib\mod\mixer_lib_frontend.lua]
+[out] <2.0s>     	Mod [script\_lib\mod\mixer_lib_frontend.lua] loaded successfully
+[out] <2.0s>     	Loading mod file [script\campaign\mod\!mixer_global_functions.lua]
+[out] <2.0s>     	Mod [script\campaign\mod\!mixer_global_functions.lua] loaded successfully
+[out] <2.0s>     	Loading mod file [script\campaign\mod\!mixer_overrides.lua]
+[out] <2.0s>     	Mod [script\campaign\mod\!mixer_overrides.lua] loaded successfully
+[out] <2.0s>     	Loading mod file [script\campaign\mod\battle_logging.lua]
+[out] <2.0s>     	Mod [script\campaign\mod\battle_logging.lua] loaded successfully
+[out] <2.0s>     	Loading mod file [script\campaign\mod\building_logging.lua]
+[out] <2.0s>     	Mod [script\campaign\mod\building_logging.lua] loaded successfully
+[out] <2.0s>     	Loading mod file [script\campaign\mod\can_equip_ancillary_test.lua]
+[out] <2.0s>     	Mod [script\campaign\mod\can_equip_ancillary_test.lua] loaded successfully
+[out] <2.0s>     	Loading mod file [script\campaign\mod\mixer_overrides_waaagh.lua]
+[out] <2.0s>     	Mod [script\campaign\mod\mixer_overrides_waaagh.lua] loaded successfully
+[out] <2.0s>     	Loading mod file [script\campaign\mod\mixer_unlocker.lua]
+[out] <2.0s>     	Mod [script\campaign\mod\mixer_unlocker.lua] loaded successfully
+[out] <2.0s>     	Loading mod file [script\campaign\mod\oldworld_wh3_campaign_ai.lua]
+[out] <2.0s>     	Mod [script\campaign\mod\oldworld_wh3_campaign_ai.lua] loaded successfully
+[out] <2.0s>     	Loading mod file [script\campaign\mod\oldworld_wide_ruined_settlement_ui_fix.lua]
+[out] <2.0s>     	Mod [script\campaign\mod\oldworld_wide_ruined_settlement_ui_fix.lua] loaded successfully
+[out] <2.0s>     	Loading mod file [script\campaign\mod\show_realms_of_chaos.lua]
+[out] <2.1s>     	Mod [script\campaign\mod\show_realms_of_chaos.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\mod\siege_logging.lua]
+[out] <2.1s>     	Mod [script\campaign\mod\siege_logging.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\mod\spawn_characters_for_animators.lua]
+[out] <2.1s>     	Mod [script\campaign\mod\spawn_characters_for_animators.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\mod\waaagh_logging.lua]
+[out] <2.1s>     	Mod [script\campaign\mod\waaagh_logging.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_altdorf_confederation.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_altdorf_confederation.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_black_dwarfs_forge.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_black_dwarfs_forge.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_campaign_underdeep.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_campaign_underdeep.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_diplomacy_additions.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_diplomacy_additions.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_elector_counts_ui_fix.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_elector_counts_ui_fix.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_handle_terrain_patchs.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_handle_terrain_patchs.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_handle_vanilla_factions.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_handle_vanilla_factions.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_kill_minor_factions.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_kill_minor_factions.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_mixer_stuff.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_mixer_stuff.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_roc_honored_guests.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_roc_honored_guests.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh2_campaign_confederation_missions.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh2_campaign_confederation_missions.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh2_campaign_custom_starts.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh2_campaign_custom_starts.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh2_dlc09_books_of_nagash_locations.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh2_dlc09_books_of_nagash_locations.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh2_dlc10_hellebron.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh2_dlc10_hellebron.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh2_dlc11_infamy.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh2_dlc11_infamy.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh2_dlc11_roving_pirates.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh2_dlc11_roving_pirates.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh2_dlc13_empire_politics.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh2_dlc13_empire_politics.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh2_dlc13_nakai_temples.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh2_dlc13_nakai_temples.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh2_dlc15_eltharion_lair.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh2_dlc15_eltharion_lair.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh2_dlc15_grom_cauldron.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh2_dlc15_grom_cauldron.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh2_dlc16_wef_worldroots.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh2_dlc16_wef_worldroots.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh2_dlc17_bloodgrounds.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh2_dlc17_bloodgrounds.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh2_dlc17_bst_ruination_progression.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh2_dlc17_bst_ruination_progression.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh2_dlc17_thorek.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh2_dlc17_thorek.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh2_twa03_rakarth.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh2_twa03_rakarth.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh3_campaign_caravans_core.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh3_campaign_caravans_core.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh3_campaign_great_game.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh3_campaign_great_game.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh3_campaign_grudges.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh3_campaign_grudges.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh3_campaign_grudges_legendary.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh3_campaign_grudges_legendary.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh3_campaign_grudges_starting_missions.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh3_campaign_grudges_starting_missions.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh3_campaign_tech_tree.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh3_campaign_tech_tree.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc20_campaign_norscan_vassal_personality.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc20_campaign_norscan_vassal_personality.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc23_campaign_chd_tower_of_zharr.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc23_campaign_chd_tower_of_zharr.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc23_narrative_chaos_dwarfs.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc23_narrative_chaos_dwarfs.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc24_matters_of_state.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc24_matters_of_state.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc24_mother_ostankya.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc24_mother_ostankya.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc24_the_changeling.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc24_the_changeling.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc25_campaign_nur_chieftains.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc25_campaign_nur_chieftains.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc25_emperors_decrees.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc25_emperors_decrees.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc25_empire_state_troops.lua]
+[out] <2.1s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc25_empire_state_troops.lua] loaded successfully
+[out] <2.1s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc25_grudge_cycles.lua]
+[out] <2.2s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc25_grudge_cycles.lua] loaded successfully
+[out] <2.2s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc25_gunnery_school.lua]
+[out] <2.2s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc25_gunnery_school.lua] loaded successfully
+[out] <2.2s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc25_imperial_authority.lua]
+[out] <2.2s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc25_imperial_authority.lua] loaded successfully
+[out] <2.2s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc25_malakai_battles.lua]
+[out] <2.2s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc25_malakai_battles.lua] loaded successfully
+[out] <2.2s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc25_nemesis_crown.lua]
+[out] <2.2s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh3_dlc25_nemesis_crown.lua] loaded successfully
+[out] <2.2s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh3_main_legendary_characters.lua]
+[out] <2.2s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh3_main_legendary_characters.lua] loaded successfully
+[out] <2.2s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh3_main_volkmar_elector_units.lua]
+[out] <2.2s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh3_main_volkmar_elector_units.lua] loaded successfully
+[out] <2.2s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh3_sea_lanes.lua]
+[out] <2.2s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh3_sea_lanes.lua] loaded successfully
+[out] <2.2s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh_dlc07_diplomatic_tech.lua]
+[out] <2.2s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh_dlc07_diplomatic_tech.lua] loaded successfully
+[out] <2.2s>     	Loading mod file [script\campaign\cr_oldworld\mod\oldworld_wh_dlc07_schwartzhafen_undying_love.lua]
+[out] <2.2s>     	Mod [script\campaign\cr_oldworld\mod\oldworld_wh_dlc07_schwartzhafen_undying_love.lua] loaded successfully
+[out] <2.2s>     ****************************
+[out] <2.2s>     
+[out] <2.2s>     
+[out] <2.2s>     ********************************************************************************
+[out] <2.2s>     cr_oldworld event has occurred:: LoadingGame
+[out] <2.2s>     	output is shown on the savegame console spool - unique counter for this output is [1]
+[savegame] <2.2s>     
+[savegame] <2.2s>     ********************************************************************************
+[savegame] <2.2s>     cr_oldworld event has occurred:: LoadingGame
+[savegame] <2.2s>     	unique counter for this output is [1]
+[savegame] <2.2s>     	Loading value long_savegame_strings_map [table: 00000000DF11BFA8]
+[savegame] <2.2s>     	Loading value __save_counter [9]
+[savegame] <2.2s>     	Loading value is_processing_battle [false]
+[help_pages] <2.2s>     printing help page history:
+[savegame] <2.2s>     	Loading value mission_managers [table: 00000000DF116DD8]
+[savegame] <2.2s>     	Loading value pending_battle_cached_attackers [table: 00000000DF112D90]
+[savegame] <2.2s>     	Loading value pending_battle_cached_defenders [table: 00000000DF1118F0]
+[savegame] <2.2s>     	Loading value pending_battle_cached_attacker_value [8434]
+[savegame] <2.2s>     	Loading value pending_battle_cached_defender_value [4350]
+[savegame] <2.2s>     	Loading value pbc_attacker_unit_count [15]
+[savegame] <2.2s>     	Loading value pbc_defender_unit_count [11]
+[savegame] <2.2s>     	Loading value pooled_resource_tracker [table: 00000000DF10E820]
+[savegame] <2.2s>     	Loading value event_error_logs [table: 00000000DF10BDD8]
+[savegame] <2.2s>     	Loading value misc_logs [table: 00000000DF10B800]
+[savegame] <2.2s>     	Loading value Invasion_Manager [table: 00000000DF10A728]
+[savegame] <2.2s>     		table: 00000000DF10A728
+[invasions] <2.2s>     Loaded invasion manager
+[savegame] <2.2s>     			Key: wh2_dlc11_cst_rogue_the_churning_gulf_raiders_PIRATE, Value: table: 00000000DF10A3B8
+[invasions] <2.2s>     		Key: wh2_dlc11_cst_rogue_the_churning_gulf_raiders_PIRATE, Value: table: 00000000DF10A3B8
+[savegame] <2.2s>     	Invasion: New Invasion object created from existing table [table: 00000000DF10A3B8]
+[invasions] <2.2s>     Invasion: New Invasion object created from existing table [table: 00000000DF10A3B8]
+[savegame] <2.2s>     		Adding Listener 'INVASION_wh2_dlc11_cst_rogue_the_churning_gulf_raiders_PIRATE'
+[invasions] <2.2s>     	Adding Listener 'INVASION_wh2_dlc11_cst_rogue_the_churning_gulf_raiders_PIRATE'
+[savegame] <2.2s>     			Key: wh2_dlc11_cst_rogue_terrors_of_the_dark_straights_PIRATE, Value: table: 00000000DF107708
+[invasions] <2.2s>     		Key: wh2_dlc11_cst_rogue_terrors_of_the_dark_straights_PIRATE, Value: table: 00000000DF107708
+[savegame] <2.2s>     	Invasion: New Invasion object created from existing table [table: 00000000DF107708]
+[invasions] <2.2s>     Invasion: New Invasion object created from existing table [table: 00000000DF107708]
+[savegame] <2.2s>     		Adding Listener 'INVASION_wh2_dlc11_cst_rogue_terrors_of_the_dark_straights_PIRATE'
+[invasions] <2.2s>     	Adding Listener 'INVASION_wh2_dlc11_cst_rogue_terrors_of_the_dark_straights_PIRATE'
+[savegame] <2.2s>     			Key: wh2_dlc11_cst_rogue_bleak_coast_buccaneers_PIRATE, Value: table: 00000000DF1059D0
+[invasions] <2.2s>     		Key: wh2_dlc11_cst_rogue_bleak_coast_buccaneers_PIRATE, Value: table: 00000000DF1059D0
+[savegame] <2.2s>     	Invasion: New Invasion object created from existing table [table: 00000000DF1059D0]
+[invasions] <2.2s>     Invasion: New Invasion object created from existing table [table: 00000000DF1059D0]
+[savegame] <2.2s>     		Adding Listener 'INVASION_wh2_dlc11_cst_rogue_bleak_coast_buccaneers_PIRATE'
+[invasions] <2.2s>     	Adding Listener 'INVASION_wh2_dlc11_cst_rogue_bleak_coast_buccaneers_PIRATE'
+[savegame] <2.2s>     			Key: wh2_dlc11_cst_rogue_grey_point_scuttlers_PIRATE, Value: table: 00000000DF0F8820
+[invasions] <2.2s>     		Key: wh2_dlc11_cst_rogue_grey_point_scuttlers_PIRATE, Value: table: 00000000DF0F8820
+[savegame] <2.2s>     	Invasion: New Invasion object created from existing table [table: 00000000DF0F8820]
+[invasions] <2.2s>     Invasion: New Invasion object created from existing table [table: 00000000DF0F8820]
+[savegame] <2.2s>     		Adding Listener 'INVASION_wh2_dlc11_cst_rogue_grey_point_scuttlers_PIRATE'
+[invasions] <2.2s>     	Adding Listener 'INVASION_wh2_dlc11_cst_rogue_grey_point_scuttlers_PIRATE'
+[savegame] <2.2s>     			Key: wh2_dlc11_cst_rogue_freebooters_of_port_royale_PIRATE, Value: table: 00000000DF101930
+[invasions] <2.2s>     		Key: wh2_dlc11_cst_rogue_freebooters_of_port_royale_PIRATE, Value: table: 00000000DF101930
+[savegame] <2.2s>     	Invasion: New Invasion object created from existing table [table: 00000000DF101930]
+[invasions] <2.2s>     Invasion: New Invasion object created from existing table [table: 00000000DF101930]
+[savegame] <2.2s>     		Adding Listener 'INVASION_wh2_dlc11_cst_rogue_freebooters_of_port_royale_PIRATE'
+[invasions] <2.2s>     	Adding Listener 'INVASION_wh2_dlc11_cst_rogue_freebooters_of_port_royale_PIRATE'
+[savegame] <2.2s>     			Key: wh2_dlc11_cst_rogue_boyz_of_the_forbidden_coast_PIRATE, Value: table: 00000000DF0FA030
+[invasions] <2.2s>     		Key: wh2_dlc11_cst_rogue_boyz_of_the_forbidden_coast_PIRATE, Value: table: 00000000DF0FA030
+[savegame] <2.2s>     	Invasion: New Invasion object created from existing table [table: 00000000DF0FA030]
+[invasions] <2.2s>     Invasion: New Invasion object created from existing table [table: 00000000DF0FA030]
+[savegame] <2.2s>     		Adding Listener 'INVASION_wh2_dlc11_cst_rogue_boyz_of_the_forbidden_coast_PIRATE'
+[invasions] <2.2s>     	Adding Listener 'INVASION_wh2_dlc11_cst_rogue_boyz_of_the_forbidden_coast_PIRATE'
+[savegame] <2.2s>     			Key: wh2_dlc11_cst_rogue_tyrants_of_the_black_ocean_PIRATE, Value: table: 00000000DF104320
+[invasions] <2.2s>     		Key: wh2_dlc11_cst_rogue_tyrants_of_the_black_ocean_PIRATE, Value: table: 00000000DF104320
+[savegame] <2.2s>     	Invasion: New Invasion object created from existing table [table: 00000000DF104320]
+[invasions] <2.2s>     Invasion: New Invasion object created from existing table [table: 00000000DF104320]
+[savegame] <2.2s>     		Adding Listener 'INVASION_wh2_dlc11_cst_rogue_tyrants_of_the_black_ocean_PIRATE'
+[invasions] <2.2s>     	Adding Listener 'INVASION_wh2_dlc11_cst_rogue_tyrants_of_the_black_ocean_PIRATE'
+[savegame] <2.2s>     	load_override_state() called, output stamp is 1
+[ui] <2.2s>     nil
+[ui] <2.2s>     ****************
+[ui] <2.2s>     load_override_state() called, output stamp is 1
+[ui] <2.2s>     ending load_override_state() output, stamp 1
+[ui] <2.2s>     ****************
+[savegame] <2.2s>     	Loading value ACTIVE_MARKERS [table: 00000000DF0DDF30]
+[savegame] <2.2s>     	Loading value victory_objectives_oldworld.gelt_unique_rituals [table: 00000000DF0DDBC0]
+[savegame] <2.2s>     	Loading value TRAIT_LORDS_RECORDS [table: 00000000DF0DD430]
+[savegame] <2.2s>     	Loading value encounter_sea_spots [table: 00000000DF0DD118]
+[savegame] <2.2s>     	Loading confed missions data
+[savegame] <2.2s>     	Loading value wood_elves_durthu [table: 00000000DF0C9AB0]
+[savegame] <2.2s>     	Loading value wood_elves_wydrioth [table: 00000000DF0C9378]
+[savegame] <2.2s>     	Loading value wood_elves_oreons_camp [table: 00000000DF0C8F58]
+[savegame] <2.2s>     	Loading value wood_elves_sisters [table: 00000000DF0C8820]
+[savegame] <2.2s>     	Loading value wood_elves_laurelorn [table: 00000000DF0C8400]
+[savegame] <2.2s>     	Loading value durthu_drycha [table: 00000000DF0C7FE0]
+[savegame] <2.2s>     	Loading value wood_elves_torgovann [table: 00000000DF0C7850]
+[savegame] <2.2s>     	Loading value thorek_karak_azul [table: 00000000DF0C7430]
+[savegame] <2.2s>     	Loading value angrund_karak_hirn [table: 00000000DF0C6CF8]
+[savegame] <2.2s>     	Loading value wood_elves_talsyn [table: 00000000DF0C68D8]
+[savegame] <2.2s>     	Finished loading confed missions data
+[savegame] <2.2s>     	Loading value SAVED_FORCED_BATTLES [table: 00000000DF0C6040]
+[savegame] <2.2s>     	Loading value aekold.factions_involved [table: 00000000DF0C5CD0]
+[savegame] <2.2s>     	Loading value aekold.has_spawned [false]
+[savegame] <2.2s>     	Loading value ariel.factions_involved [table: 00000000DF0C5438]
+[savegame] <2.2s>     	Loading value ariel.has_spawned [false]
+[savegame] <2.2s>     	Loading value coeddil.factions_involved [table: 00000000DF0C4EB8]
+[savegame] <2.2s>     	Loading value coeddil.has_spawned [false]
+[savegame] <2.2s>     	Loading value garagrim.factions_involved [table: 00000000DF0C4620]
+[savegame] <2.2s>     	Loading value garagrim.has_spawned [false]
+[savegame] <2.2s>     	Loading value ghoritch.factions_involved [table: 00000000DF0C3D88]
+[savegame] <2.2s>     	Loading value ghoritch.has_spawned [false]
+[savegame] <2.2s>     	Loading value gorduz.factions_involved [table: 00000000DF0C3808]
+[savegame] <2.2s>     	Loading value gorduz.has_spawned [false]
+[savegame] <2.2s>     	Loading value gotrek_and_felix.factions_involved [table: 00000000DF0C2F70]
+[savegame] <2.2s>     	Loading value gotrek_and_felix.has_spawned [false]
+[savegame] <2.2s>     	Loading value harald.factions_involved [table: 00000000DF0C2A48]
+[savegame] <2.2s>     	Loading value harald.has_spawned [false]
+[savegame] <2.2s>     	Loading value karanak.factions_involved [table: 00000000DF0C21B0]
+[savegame] <2.2s>     	Loading value karanak.has_spawned [false]
+[savegame] <2.2s>     	Loading value lord_kroak.factions_involved [table: 00000000DF0C1B80]
+[savegame] <2.2s>     	Loading value lord_kroak.has_spawned [false]
+[savegame] <2.2s>     	Loading value leysa.factions_involved [table: 00000000DF0C13F0]
+[savegame] <2.2s>     	Loading value leysa.has_spawned [false]
+[savegame] <2.2s>     	Loading value saytang.factions_involved [table: 00000000DF0C0B58]
+[savegame] <2.2s>     	Loading value saytang.has_spawned [false]
+[savegame] <2.2s>     	Loading value scribes.factions_involved [table: 00000000DF0C05D8]
+[savegame] <2.2s>     	Loading value scribes.has_spawned [false]
+[savegame] <2.2s>     	Loading value theodore.factions_involved [table: 00000000DF0BF7C0]
+[savegame] <2.2s>     	Loading value theodore.has_spawned [false]
+[savegame] <2.2s>     	Loading value ulrika.factions_involved [table: 00000000DF0BE3D0]
+[savegame] <2.2s>     	Loading value ulrika.has_spawned [false]
+[savegame] <2.2s>     	Loading value AIFactiontoFactionContact [table: 00000000DF009008]
+[savegame] <2.2s>     	Loading value FactionToCoordinates [table: 00000000DF007ED8]
+[savegame] <2.2s>     	Loading value FactionToCoordinatesIterator [1]
+[savegame] <2.2s>     	Loading value short_victory_ai_factions [table: 00000000DF006AE8]
+[savegame] <2.2s>     	Loading value long_victory_ai_factions [table: 00000000DF005A10]
+[savegame] <2.2s>     	Loading value blessed_spawnings.current_spawn_timer [0]
+[savegame] <2.2s>     	Loading value blessed_spawnings.active_missions [table: 00000000DF0042B0]
+[savegame] <2.2s>     	Loading value vampire_bloodlines_levels [table: 00000000DF003498]
+[savegame] <2.2s>     	Loading value vampire_bloodlines_unit_caps [table: 00000000DF002368]
+[savegame] <2.2s>     	Loading value vampire_bloodlines_vassals [table: 00000000DF001340]
+[savegame] <2.2s>     	Loading value follower_thresholds [table: 00000000DF0005D8]
+[savegame] <2.2s>     	Loading value NurglePlagues_PlagueFactionInfo [table: 00000000DEFFF6B8]
+[savegame] <2.2s>     	Loading value NurglePlagues_PlagueButtonInfo [table: 00000000DEFFE3D0]
+[savegame] <2.2s>     	Loading value enemy_force_cqi [0]
+[savegame] <2.2s>     	Loading value events_cooldown [table: 00000000DEFFB358]
+[savegame] <2.2s>     	Loading value endgame.triggered [false]
+[savegame] <2.2s>     	Loading value completed_legendary_grudges [table: 00000000DEFFA6F8]
+[savegame] <2.2s>     	Loading value active_legendary_grudges [table: 00000000DEFFA330]
+[savegame] <2.2s>     	Loading value spawn_foe_armies [false]
+[savegame] <2.2s>     	Loading value grudge_cycle.target_grudge_value [table: 00000000DEFF9990]
+[savegame] <2.2s>     	Loading value grudge_cycle.cycle_grudges [table: 00000000DEFF8A18]
+[savegame] <2.2s>     	Loading value grudge_cycle.pending_battle [table: 00000000DEFF7158]
+[savegame] <2.2s>     	Loading value grudge_cycle.siege_settlement_level [2]
+[savegame] <2.2s>     	Loading value grudge_cycle.historical_regions [table: 00000000DEFF4978]
+[savegame] <2.2s>     	Loading value grudge_cycle.faction_times [table: 00000000DEFF41E8]
+[savegame] <2.2s>     	Loading value grudge_cycle.grudge_armies [table: 00000000DEFF3ED0]
+[savegame] <2.2s>     	Loading value grudge_cycle.dilemma.current_cooldown [2]
+[savegame] <2.2s>     	Loading value grudge_cycle.delayed_factions [table: 00000000DEFF3060]
+[savegame] <2.2s>     	Loading value grudge_cycle.minimum_world_grudges_met [true]
+[savegame] <2.2s>     	Loading value grudge_cycle.faction_levels [table: 00000000DEFF2198]
+[savegame] <2.2s>     	Loading value solar_eclipse_guaranteed [false]
+[savegame] <2.2s>     	Loading value moon_phase [1]
+[savegame] <2.2s>     	Loading value selected_moon_type [nil]
+[savegame] <2.2s>     	Loading value previous_moon_effect [nil]
+[savegame] <2.2s>     	Loading value round_handled [0]
+[savegame] <2.2s>     	Loading value wild_hunt_next_turn [11]
+[savegame] <2.2s>     	Loading value wild_hunt_end_turn [6]
+[savegame] <2.2s>     	Loading value wef_ai_personality_duration [59]
+[savegame] <2.2s>     	Loading value turns_until_event [25]
+[savegame] <2.2s>     	Loading value BLESSING_CURRENT_ARMIES [table: 00000000DEFEE570]
+[savegame] <2.2s>     	Loading value BRET_LORDS_RECORDS [table: 00000000DEFEDEE8]
+[savegame] <2.2s>     	Loading value NORSCA_ADVICE [table: 00000000DEFED5F8]
+[savegame] <2.2s>     	Loading value NORSCAN_GODS [table: 00000000DEFEB7B8]
+[savegame] <2.2s>     	Loading value NORSCA_AVAILABLE_SPAWN_LOCATIONS [table: 00000000DEFEA210]
+[savegame] <2.2s>     	Loading value Monster_hunts [table: 00000000DEFE8F28]
+[savegame] <2.2s>     	Loading value NURGLE_PLAGUE_LIST [table: 00000000DEFE4858]
+[savegame] <2.2s>     	Loading value NURGLE_PLAGUE_LIST_COOLDOWNS [table: 00000000DEFE4018]
+[savegame] <2.2s>     	Loading value NURGLE_PLAGUE_EVENT_COOLDOWN [0]
+[savegame] <2.2s>     	Loading value books_collected [0]
+[savegame] <2.2s>     	Loading value books_collected_list [table: 00000000DEFE3938]
+[savegame] <2.2s>     	Loading value books_mission_regions [table: 00000000DEFE3620]
+[savegame] <2.2s>     	Loading value books_mission_characters [table: 00000000DEFE3308]
+[savegame] <2.2s>     	Loading value books_mission_factions [table: 00000000DEFE2CD8]
+[savegame] <2.2s>     	Loading value defender_of_ulthuan_level [1]
+[savegame] <2.2s>     	Loading value power_of_nature_regions [table: 00000000DEFE27B0]
+[savegame] <2.2s>     	Loading value assassination_targets [table: 00000000DEFE2390]
+[savegame] <2.2s>     	Loading value death_night.current_resource [20]
+[savegame] <2.2s>     	Loading value death_night.current_level [0]
+[savegame] <2.2s>     	Loading value death_night.min_level_missions [table: 00000000DEFE1A48]
+[savegame] <2.2s>     	Loading value death_night.cost [table: 00000000DEFE1418]
+[savegame] <2.2s>     	Loading value death_night.triggered_this_turn [false]
+[savegame] <2.2s>     	Loading value death_night.slaves_freed [false]
+[savegame] <2.2s>     	Loading value death_night.blood_voyage.gathered_loot_value [0]
+[savegame] <2.2s>     	Loading value death_night.blood_voyage.active [false]
+[savegame] <2.2s>     	Loading value death_night.blood_voyage.cooldown [25]
+[savegame] <2.2s>     	Loading value death_night.blood_voyage.possible_targets [table: 00000000DEFDDA00]
+[savegame] <2.2s>     	Loading value harkon_personality [table: 00000000DEFDCAE0]
+[savegame] <2.2s>     	Loading value noctilus_war_counter [5]
+[savegame] <2.2s>     	Loading value infamy.player_shanty_levels [table: 00000000DEFDC668]
+[savegame] <2.2s>     	Loading value infamy.player_shanty_missions_active [table: 00000000DEFDBA08]
+[savegame] <2.2s>     	Loading value infamy.playable_pirate_leader_cqis [table: 00000000DEFDAEB0]
+[savegame] <2.2s>     	Loading value treasure_map_list [table: 00000000DEFD9F90]
+[savegame] <2.2s>     	Loading value map_chance [15]
+[savegame] <2.2s>     	Loading value active_treasure [1]
+[savegame] <2.2s>     	Loading value level3_missions [1]
+[savegame] <2.2s>     	Loading value map_chance_increase_per_turn [0]
+[savegame] <2.2s>     	Loading value roving_pirates [table: 00000000DEFD7170]
+[savegame] <2.2s>     	Loading value lohkir_arks.current_maj_port_count [0]
+[savegame] <2.2s>     	Loading value lohkir_arks.current_blarks_in_pool [0]
+[savegame] <2.2s>     	Loading value skaven_under_empire_ruins [table: 00000000DEFD0318]
+[savegame] <2.2s>     	Loading value under_empire_plagues [table: 00000000DEFCFB30]
+[savegame] <2.2s>     	Loading value workshop_lvl_missions_scripted_listener [table: 00000000DEFCF2F0]
+[savegame] <2.2s>     	Loading value workshop_lvl_progress [table: 00000000DEFCE428]
+[savegame] <2.2s>     	Loading value current_workshop_lvl [4]
+[savegame] <2.2s>     	Loading value nuke_limit [5]
+[savegame] <2.2s>     	Loading value workshop_category_progress [table: 00000000DEFCB618]
+[savegame] <2.2s>     	Loading value initialized [true]
+[savegame] <2.2s>     	Loading value nuke_drop_chance_current [0]
+[savegame] <2.2s>     	Loading value reactor_add_chances [table: 00000000DEFCAB70]
+[savegame] <2.2s>     	Loading value workshop_rite_details [table: 00000000DEFCA388]
+[savegame] <2.2s>     	Loading value SotekProphecies [table: 00000000DEFC2F58]
+[savegame] <2.2s>     	Loading value empire_politics_factions [table: 00000000DEFC15E8]
+[savegame] <2.2s>     	Loading value empire_politics_events [table: 00000000DEFC0CA0]
+[savegame] <2.2s>     	Loading value empire_political_dilemma [table: 00000000DEFC0510]
+[savegame] <2.2s>     	Loading value empire_political_invasion [table: 00000000DEFC01F8]
+[savegame] <2.2s>     	Loading value empire_political_succession [table: 00000000DEFBFBC8]
+[savegame] <2.2s>     	Loading value empire_political_civil_war [table: 00000000DEFBF8B0]
+[savegame] <2.2s>     	Loading value empire_demand_return_queue [table: 00000000DEFBF598]
+[savegame] <2.2s>     	Loading value empire_demand_return_details [table: 00000000DEFBEF68]
+[savegame] <2.2s>     	Loading value empire_free_elector_death [true]
+[savegame] <2.2s>     	Loading value empire_fired_political_events [table: 00000000DEFBEAF0]
+[savegame] <2.2s>     	Loading value imperial_guard_meter [90]
+[savegame] <2.2s>     	Loading value hostility_level_increased [0]
+[savegame] <2.2s>     	Loading value hostility_level_current [0]
+[savegame] <2.2s>     	Loading value hostility_level_decay_counter [5]
+[savegame] <2.2s>     	Loading value elector_count_details [table: 00000000DEFBDBD0]
+[savegame] <2.2s>     	Loading value elector_count_reward_queued [table: 00000000DEFBCDB8]
+[savegame] <2.2s>     	Loading value acclaim_lock [false]
+[savegame] <2.2s>     	Loading value supply_delay_counter [0]
+[savegame] <2.2s>     	Loading value queued_hostility_level_army_spawn [table: 00000000DEFBC3C0]
+[savegame] <2.2s>     	Loading value hostility_level_5_lock_counter [0]
+[savegame] <2.2s>     	Loading value quetzl_completed [false]
+[savegame] <2.2s>     	Loading value xholankha_completed [false]
+[savegame] <2.2s>     	Loading value itzl_completed [false]
+[savegame] <2.2s>     	Loading value malus_sanity [400]
+[savegame] <2.2s>     	Loading value tzarkans_whispers [table: 00000000DEFBB188]
+[savegame] <2.2s>     	Loading value tzarkan_mission_types [table: 00000000DEFBAD10]
+[savegame] <2.2s>     	Loading value tzarkan_mission_reward_ancillaries [table: 00000000DEFBA948]
+[savegame] <2.2s>     	Loading value dust_cap [1]
+[savegame] <2.2s>     	Loading value dust_cooldown [0]
+[savegame] <2.2s>     	Loading value dust_actions [table: 00000000DEFB9EF8]
+[savegame] <2.2s>     	Loading value contract_clans [table: 00000000DEFB9C38]
+[savegame] <2.2s>     	Loading value gotrek_details [table: 00000000DEFB92F0]
+[savegame] <2.2s>     	Loading value lair_escaping_prisoner [0]
+[savegame] <2.2s>     	Loading value lair_indoctrinated_characters [table: 00000000DEFB8AB0]
+[savegame] <2.2s>     	Loading value lair_improved_interrogate [false]
+[savegame] <2.2s>     	Loading value lair_max_yvresse_level [2]
+[savegame] <2.2s>     	Loading value lair_max_prisoners [1]
+[savegame] <2.2s>     	Loading value lair_interrogated_prisoner [0]
+[savegame] <2.2s>     	Loading value dragon_state [1]
+[savegame] <2.2s>     	Loading value dragon_turns_spawn_timer [11]
+[savegame] <2.2s>     	Loading value dragon_marker_turns_available [20]
+[savegame] <2.2s>     	Loading value dragon_marker_key_counter [1]
+[savegame] <2.2s>     	Loading value dragon_post_battle_listener [false]
+[savegame] <2.2s>     	Loading value unit_details [table: 00000000DEFB7668]
+[savegame] <2.2s>     	Loading value position [table: 00000000DEFB6E80]
+[savegame] <2.2s>     	Loading value dragon_dilemma_special_ready [table: 00000000DEFB6B10]
+[savegame] <2.2s>     	Loading value dragon_mission_completed [0]
+[savegame] <2.2s>     	Loading value waaagh_factions [table: 00000000DEFB6328]
+[savegame] <2.2s>     	Loading value BlacktoofMissionsCurrent [1]
+[savegame] <2.2s>     	Loading value BlacktoofProphecies [table: 00000000DEFB4C78]
+[savegame] <2.3s>     	Loading value current_food_challenge [table: 00000000DEFB4960]
+[savegame] <2.3s>     	Loading value cooked_dish [table: 00000000DEFB4648]
+[savegame] <2.3s>     	Loading value dishcookedhag [false]
+[savegame] <2.3s>     	Loading value Worldrootsgryphon_wood_rite_completed [false]
+[savegame] <2.3s>     	Loading value Worldrootsgryphon_woodrite_active [false]
+[savegame] <2.3s>     	Loading value Worldrootstor_lithanel_rite_completed [false]
+[savegame] <2.3s>     	Loading value Worldrootstor_lithanelrite_active [false]
+[savegame] <2.3s>     	Loading value Worldrootsforest_of_gloom_rite_completed [false]
+[savegame] <2.3s>     	Loading value Worldrootsforest_of_gloomrite_active [false]
+[savegame] <2.3s>     	Loading value Worldrootsoreons_camp_rite_completed [false]
+[savegame] <2.3s>     	Loading value Worldrootsoreons_camprite_active [false]
+[savegame] <2.3s>     	Loading value Worldrootsthe_bears_teeth_rite_completed [false]
+[savegame] <2.3s>     	Loading value Worldrootsthe_bears_teethrite_active [false]
+[savegame] <2.3s>     	Loading value Worldrootsoak_of_prophecy_rite_completed [false]
+[savegame] <2.3s>     	Loading value Worldrootsoak_of_prophecyrite_active [false]
+[savegame] <2.3s>     	Loading value Worldrootspina_wood_rite_completed [false]
+[savegame] <2.3s>     	Loading value Worldrootspina_woodrite_active [false]
+[savegame] <2.3s>     	Loading value Worldrootsgrove_of_thorns_rite_completed [false]
+[savegame] <2.3s>     	Loading value Worldrootsgrove_of_thornsrite_active [false]
+[savegame] <2.3s>     	Loading value Worldrootsforest_of_knives_rite_completed [false]
+[savegame] <2.3s>     	Loading value Worldrootsforest_of_knivesrite_active [false]
+[savegame] <2.3s>     	Loading value Worldrootsthe_oak_of_ages_rite_completed [false]
+[savegame] <2.3s>     	Loading value Worldrootsthe_oak_of_agesrite_active [false]
+[savegame] <2.3s>     	Loading value Worldrootshaunted_grove_rite_completed [false]
+[savegame] <2.3s>     	Loading value Worldrootshaunted_groverite_active [false]
+[savegame] <2.3s>     	Loading value Worldrootssharpthorn_forest_rite_completed [false]
+[savegame] <2.3s>     	Loading value Worldrootssharpthorn_forestrite_active [false]
+[savegame] <2.3s>     	Loading value Worldrootsoasis_of_a_thousand_and_one_camels_rite_completed [false]
+[savegame] <2.3s>     	Loading value Worldrootsoasis_of_a_thousand_and_one_camelsrite_active [false]
+[savegame] <2.3s>     	Loading value Worldrootsforest_of_sighs_rite_completed [false]
+[savegame] <2.3s>     	Loading value Worldrootsforest_of_sighsrite_active [false]
+[savegame] <2.3s>     	Loading value Worldrootssherweald_forest_rite_completed [false]
+[savegame] <2.3s>     	Loading value Worldrootssherweald_forestrite_active [false]
+[savegame] <2.3s>     	Loading value Worldrootssussurrio_wood_rite_completed [false]
+[savegame] <2.3s>     	Loading value Worldrootssussurrio_woodrite_active [false]
+[savegame] <2.3s>     	Loading value Worldrootsdolganyeir_forests_rite_completed [false]
+[savegame] <2.3s>     	Loading value Worldrootsdolganyeir_forestsrite_active [false]
+[savegame] <2.3s>     	Loading value WorldrootsCompletedEncounters [table: 00000000DEFAFE70]
+[savegame] <2.3s>     	Loading value WorldrootsTurnsSinceLastMarker [5]
+[savegame] <2.3s>     	Loading value sisters_forge_items [table: 00000000DEFAFAA8]
+[savegame] <2.3s>     	Loading value sisters_current_forge_cooldown [false]
+[savegame] <2.3s>     	Loading value flesh_lab_upgrade_purchased [table: 00000000DEFAECE8]
+[savegame] <2.3s>     	Loading value flesh_lab_upgrade_counter [0]
+[savegame] <2.3s>     	Loading value flesh_lab_mutagen_capacity [100]
+[savegame] <2.3s>     	Loading value RakarthBadLuckModifiers [table: 00000000DEFAE3A0]
+[savegame] <2.3s>     	Loading value RakarthIncidentCount [0]
+[savegame] <2.3s>     	Loading value RakarthSettlementsBeastRaidedThisTurn [table: 00000000DEFAD8A0]
+[savegame] <2.3s>     	Loading value oxy_gems_skill_owned [false]
+[savegame] <2.3s>     	Loading value oxy_gems_first_gems [false]
+[savegame] <2.3s>     	Loading value oxy_gems_first_sanctum [false]
+[savegame] <2.3s>     	Loading value oxy_map_missions_started [false]
+[savegame] <2.3s>     	Loading value oxy_map_last_interaction_cqi [false]
+[savegame] <2.3s>     	Loading value oxy_map_invasion_count [0]
+[savegame] <2.3s>     	Loading value oxy_map_active_missions [table: 00000000DEFA98B0]
+[savegame] <2.3s>     	Loading value oxy_map_active_consequences [table: 00000000DEFA8990]
+[savegame] <2.3s>     	Loading value oxy_map_active_rewards [table: 00000000DEFA7E90]
+[savegame] <2.3s>     	Loading value oxy_map_blocked_regions [table: 00000000DEFA6E10]
+[savegame] <2.3s>     	Loading value oxy_map_region_marker_details [table: 00000000DEFA63C0]
+[savegame] <2.3s>     	Loading value oxy_map_sanctum_marker_details [table: 00000000DEFA5028]
+[savegame] <2.3s>     	Loading value oxy_map_wave_details [table: 00000000DEFA4370]
+[savegame] <2.3s>     	Loading value oxy_scripted_battle_details [table: 00000000DEF9B0F0]
+[savegame] <2.3s>     	Loading value oxy_diplomatic_mission_reward_amounts [table: 00000000DEF9ABC8]
+[savegame] <2.3s>     	Loading value artifact_objectives [0]
+[savegame] <2.3s>     	Loading value already_looted [table: 00000000DEF99F10]
+[savegame] <2.3s>     	Loading value listener_cache [table: 00000000DEF99570]
+[savegame] <2.3s>     	Loading value beastmen_players [table: 00000000DEF97470]
+[savegame] <2.3s>     	Loading value ActiveBloodgrounds [table: 00000000DEF96448]
+[savegame] <2.3s>     	Loading value momentum_matrix [table: 00000000DEF91C18]
+[savegame] <2.3s>     	Loading value hidden_traits [table: 00000000DEF8E308]
+[savegame] <2.3s>     	Loading value consecutive_battles_won_this_turn [2]
+[savegame] <2.3s>     	Loading value base_battle_rampage [6]
+[savegame] <2.3s>     	Loading value completed_rampage_rituals [table: 00000000DEF8A8F0]
+[savegame] <2.3s>     	Loading value BeastmenAIProgression [table: 00000000DEF891E8]
+[savegame] <2.3s>     	Loading value BeastmenHerdstoneProgress [table: 00000000DEF85670]
+[savegame] <2.3s>     	Loading value BeastmenCurrentRuinTier [0]
+[savegame] <2.3s>     	Loading value TowerOfZharrSeats [table: 00000000DEF84228]
+[savegame] <2.3s>     	Loading value TowerOfZharrDistricts [table: 00000000DEF7EFA8]
+[savegame] <2.3s>     	Loading value TowerOfZharrTiers [table: 00000000DEF7DE20]
+[savegame] <2.3s>     	Loading value TowerOfZharrFactionSpecialties [table: 00000000DEF7D168]
+[savegame] <2.3s>     	Loading value TowerOfZharrVariables [table: 00000000DEF7C3A8]
+[savegame] <2.3s>     	Loading value hellforge_ai_data [table: 00000000DEF7BF88]
+[savegame] <2.3s>     	Loading value hellforge_incident_triggered [false]
+[savegame] <2.3s>     	Loading value ChaosDwarfNarrativeUpdatedValues [table: 00000000DEF7B5E8]
+[savegame] <2.3s>     	Loading value ChaosDwarfNarrativeMissionObjectives [table: 00000000DEF7B328]
+[savegame] <2.3s>     	Loading value ChaosDwarfNarrativeCounters [table: 00000000DEF7AA38]
+[savegame] <2.3s>     	Loading value ChaosDwarfRelicAssignments [table: 00000000DEF7A6C8]
+[savegame] <2.3s>     	Loading value matters_of_state_recovery_timer [5]
+[savegame] <2.3s>     	Loading value matters_of_state_pr_stone_pending [0]
+[savegame] <2.3s>     	Loading value matters_of_state_pr_steel_pending [0]
+[savegame] <2.3s>     	Loading value matters_of_state_pr_maximum_tokens [4]
+[savegame] <2.3s>     	Loading value matters_of_state_remaining_capacity_upgrades [4]
+[savegame] <2.3s>     	Loading value matters_of_state_incursion_variables [table: 00000000DEF795F0]
+[savegame] <2.3s>     	Loading value bray_shaman.has_spawned [false]
+[savegame] <2.3s>     	Loading value castellan.has_spawned [false]
+[savegame] <2.3s>     	Loading value exalted_hero.has_spawned [false]
+[savegame] <2.3s>     	Loading value fimir_balefiend.has_spawned [false]
+[savegame] <2.3s>     	Loading value kazyk.has_spawned [true]
+[savegame] <2.3s>     	Loading value werekin.has_spawned [false]
+[savegame] <2.3s>     	Loading value tier_1_reached [false]
+[savegame] <2.3s>     	Loading value tier_2_reached [false]
+[savegame] <2.3s>     	Loading value tier_3_reached [false]
+[savegame] <2.3s>     	Loading value tier_4_reached [false]
+[savegame] <2.3s>     	Loading value deference_fallback [false]
+[savegame] <2.3s>     	Loading value adventure_mission_data [table: 00000000DEF77548]
+[savegame] <2.3s>     	Loading value adventure_completed_missions [table: 00000000DEF6BB40]
+[savegame] <2.3s>     	Loading value adventure_activated_adventures [table: 00000000DEF6B2A8]
+[savegame] <2.3s>     	Loading value gunnery_school.current_stage [1]
+[savegame] <2.3s>     	Loading value college_of_magic.wizard_cap [table: 00000000DEF6AE30]
+[savegame] <2.3s>     	Loading value NemesisCrown_CrownData [table: 00000000DEF6AC20]
+[savegame] <2.3s>     	Loading value imperial_authority.factions [table: 00000000DEF6A4E8]
+[savegame] <2.3s>     	Loading value imperial_authority.empire_regions [table: 00000000DEF67998]
+[savegame] <2.3s>     	Loading value sphere_of_influence_building_built [false]
+[savegame] <2.3s>     	Loading value sphere_of_influence_radius_size [25]
+[savegame] <2.3s>     	Loading value empire_state_troops.locked [table: 00000000DEF615E8]
+[savegame] <2.3s>     	Loading value empire_state_troops.custom_unlocks [table: 00000000DEF60B40]
+[savegame] <2.3s>     	Loading value gardens_of_morr.current_regions [table: 00000000DEF60358]
+[savegame] <2.3s>     	Loading value gelt_dilemmas.choice_1 [-1]
+[savegame] <2.3s>     	Loading value gelt_dilemmas.choice_2 [-1]
+[savegame] <2.3s>     	Loading value gelt_dilemmas.remove_trespass_immunity_turn [0]
+[savegame] <2.3s>     	Loading value MINOR_CULT_REGIONS [table: 00000000DEF5D650]
+[savegame] <2.3s>     	Loading value MinorCult_mc_order_of_vaul [table: 00000000DEF5CC00]
+[savegame] <2.3s>     	Loading value MinorCult_mc_cult_of_painted_skin [table: 00000000DEF5BA20]
+[savegame] <2.3s>     	Loading value MinorCult_mc_silver_pinnacle [table: 00000000DEF5B398]
+[savegame] <2.3s>     	Loading value MinorCult_mc_order_sacred_scythe [table: 00000000DEF5B080]
+[savegame] <2.3s>     	Loading value MinorCult_mc_dwarf_miners [table: 00000000DEF5A8F0]
+[savegame] <2.3s>     	Loading value MinorCult_mc_black_ark [table: 00000000DEF5A058]
+[savegame] <2.3s>     	Loading value MinorCult_mc_cult_of_haendryk [table: 00000000DEF59608]
+[savegame] <2.3s>     	Loading value MinorCult_mc_cult_of_illumination [table: 00000000DEF57D48]
+[savegame] <2.3s>     	Loading value MinorCult_mc_cult_of_ulric [table: 00000000DEF566F0]
+[savegame] <2.3s>     	Loading value MinorCult_mc_cult_of_myrmidia [table: 00000000DEF563D8]
+[savegame] <2.3s>     	Loading value MinorCult_mc_cult_of_ranald [table: 00000000DEF560C0]
+[savegame] <2.3s>     	Loading value MinorCult_mc_cult_of_yellow_fang [table: 00000000DEF55CF8]
+[savegame] <2.3s>     	Loading value MinorCult_mc_cult_of_exquisite_cadaver [table: 00000000DEF559E0]
+[savegame] <2.3s>     	Loading value MinorCult_mc_tilean_traders [table: 00000000DEF556C8]
+[savegame] <2.3s>     	Loading value MinorCult_mc_witch_hunters [table: 00000000DEF55098]
+[savegame] <2.3s>     	Loading value MinorCult_mc_cult_of_shallya [table: 00000000DEF54D80]
+[savegame] <2.3s>     	Loading value MinorCult_mc_dwarf_rangers [table: 00000000DEF54A68]
+[savegame] <2.3s>     	Loading value MinorCult_mc_grail_knight_grave [table: 00000000DEF54438]
+[savegame] <2.3s>     	Loading value MinorCult_mc_assassins [table: 00000000DEF54120]
+[savegame] <2.3s>     	Loading value MinorCult_mc_cult_of_possessed [table: 00000000DEF53E08]
+[savegame] <2.3s>     	Loading value mixer_enabled_custom_factions [table: 00000000DEF53308]
+[savegame] <2.3s>     ********************************************************************************
+[savegame] <2.3s>     
+[out] <2.3s>     ********************************************************************************
+[out] <2.3s>     

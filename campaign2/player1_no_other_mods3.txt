@@ -1,0 +1,34 @@
+
+creating logfile script_log_261024_2150.txt
+
+*************************************************************************************************************
+*************************************************************************************************************
+[out] <0.0s>     lib_header.lua :: script libraries reloaded in frontend configuration
+[out] <0.0s>     	loading took 0.02899169921875s
+[out] <0.0s>     	Lua version is Lua 5.1
+[out] <0.0s>     
+[out] <0.0s>     
+[out] <0.0s>     ****************************
+[out] <0.0s>     Loading Mods
+[out] <0.0s>     	Loading mod file [script\_lib\mod\mixer_lib.lua]
+[out] <0.0s>     	Mod [script\_lib\mod\mixer_lib.lua] loaded successfully
+[out] <0.0s>     	Loading mod file [script\_lib\mod\mixer_lib_campaign.lua]
+[out] <0.0s>     	Mod [script\_lib\mod\mixer_lib_campaign.lua] loaded successfully
+[out] <0.0s>     	Loading mod file [script\_lib\mod\mixer_lib_frontend.lua]
+[out] <0.0s>     	Mod [script\_lib\mod\mixer_lib_frontend.lua] loaded successfully
+[out] <0.0s>     	Loading mod file [script\frontend\mod\cr_oldworld_campaign_frontend.lua]
+[out] <0.0s>     	Mod [script\frontend\mod\cr_oldworld_campaign_frontend.lua] loaded successfully
+[out] <0.0s>     	Loading mod file [script\frontend\mod\cr_oldworld_campaign_frontend_mct.lua]
+[out] <0.0s>     	Mod [script\frontend\mod\cr_oldworld_campaign_frontend_mct.lua] loaded successfully
+[out] <0.1s>     	Loading mod file [script\frontend\mod\cr_oldworld_mixer_helpers.lua]
+[out] <0.1s>     	Mod [script\frontend\mod\cr_oldworld_mixer_helpers.lua] loaded successfully
+[out] <0.1s>     	Loading mod file [script\frontend\mod\mixer_frontend.lua]
+[out] <0.1s>     	Mod [script\frontend\mod\mixer_frontend.lua] loaded successfully
+[out] <0.1s>     ****************************
+[out] <0.1s>     
+[out] <0.1s>     
+[out] <0.1s>     ********************************************************************************
+[out] <0.1s>     event has occurred:: UICreated, environment is FrontEnd UI
+[out] <0.1s>     ********************************************************************************
+[out] <0.1s>     ********************************************************************************
+[out] <0.1s>     
